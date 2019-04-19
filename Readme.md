@@ -11,9 +11,9 @@ FEATURES
 
 Home-description of band
 About-story of band
-Music-sample music
+Meet us-band on pics
 Events-upcoming events/gigs
-Videos-videoclips
+Music and Videoclips-videoclips
 Contact-contact can mean only one thing, contact with your manager
 
 EXISTING FEATURES

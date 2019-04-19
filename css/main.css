@@ -6,6 +6,78 @@
     background-color: #4a4a4f;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+.name{
+    margin-left: 30%;
+    text-align: center;
+    color: #8C7853; 
+    size: large;
+    text-shadow: #4A766E;
+    font-size: 200px;
+    font-weight: bold;
+    
+}
+.row {
+    margin-top: 150px;
+    min-height: 250px;
+    padding: 40px;
+    
+    
+}
+.logo-dj{
+    background: url("../images/dj.jpg");
+    height: 250px;
+    width: 250px;
+    margin:100px;
+
+}
+.logo-md{
+    background: url("../images/md.jpg");
+    height: 250px;
+    width: 250px;
+    margin:100px;
+}
+.logo-mn{
+    background: url("../images/mn.jpg");
+    height: 250px;
+    width: 250px;
+    margin:100px;
+}
+.logo-pt{
+    background: url("../images/pt.jpg");
+    height: 250px;
+    width: 250px;
+    margin:100px;
+}
+h2{
+    color: #C0D9D9;
+    font-weight: bolder;
+}
+.logo {
+    margin-top: 10%;
+    background: url("../images/monkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.logo {
+    margin-top: 10%;
+    background: url("../images/monkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 button {
     border: none;
     background-color: #0997d3;
