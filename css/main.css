@@ -20,6 +20,17 @@ a:link {
     font-weight: bold;
     
 }
+.home{
+    margin-top: 5%;
+    color:#C0D9D9;
+    font-size: 40px;
+    
+}
+.date{
+    margin-top: 5%;
+    color:#C0D9D9;
+    font-size: 40px;
+}
 .row {
     margin-top: 150px;
     min-height: 250px;
@@ -32,6 +43,8 @@ a:link {
     height: 250px;
     width: 250px;
     margin:100px;
+    background-repeat: no-repeat;
+    margin-top: auto;
 
 }
 .logo-md{
@@ -39,22 +52,42 @@ a:link {
     height: 250px;
     width: 250px;
     margin:100px;
+    background-repeat: no-repeat;
+    margin-top: auto;
 }
 .logo-mn{
     background: url("../images/mn.jpg");
     height: 250px;
     width: 250px;
     margin:100px;
+    background-repeat: no-repeat;
+    margin-top: auto;
 }
+
 .logo-pt{
     background: url("../images/pt.jpg");
     height: 250px;
     width: 250px;
     margin:100px;
+    background-repeat: no-repeat;
+    margin-top: auto;
 }
+
 h2{
     color: #C0D9D9;
     font-weight: bolder;
+}
+
+.background-about{
+    background-color: #3D5AFE;
+   border: 10px dotted black;
+  padding: 15px;
+  background-clip: border-box;
+}
+.fas fa-home{
+    font-weight: bold;
+    font-size: 20px;
+    
 }
 .logo {
     margin-top: 10%;
@@ -67,12 +100,25 @@ h2{
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-.logo {
-    margin-top: 10%;
-    background: url("../images/monkees.jpg");
+
+.logo1 {
+    margin-top:5%;
+    background: url("../images/monkees1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    min-height: 300px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.logo2{
+     margin-top:0%;
+    background: url("../images/band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
     min-height: 1000px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
