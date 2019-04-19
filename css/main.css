@@ -79,7 +79,7 @@ h2{
 }
 
 .background-about{
-    background-color: #3D5AFE;
+    background-color: #AFAFAF;
    border: 10px dotted black;
   padding: 15px;
   background-clip: border-box;
@@ -132,6 +132,8 @@ button {
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
+    border-radius: 8px;
+    display: inline-block;
 }
 
 .dropdownMenu{
@@ -171,6 +173,7 @@ button {
 
 .dropdown:hover button {
     background-color: #018ec5;
+    
 }
 
 .dropdown:hover .dropdownMenu {
