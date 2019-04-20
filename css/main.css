@@ -1,13 +1,13 @@
 
 
 .social-links{
-    position:fixed;
-    top:40;
-    left:60;
+    position: fixed;
+    border: 3px solid #0997d3;
+    top:10;
+    right:100;
     color: #8C7853;
     background-color: transparent;
-    text-shadow: #4A766E;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .sociallink{
@@ -45,7 +45,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     position: center;
-    background-color: #e84610;
+    background-color: #525252;
     color: #fafafa;
 } 
 
@@ -60,12 +60,12 @@ a:music{
     background-color: #70640A;
 }
 .name{
-    margin-left: 15%;
-    text-align: center;
+    margin-left: 0;
+    display: inline-block;
     color: #8C7853; 
     size: large;
     text-shadow: #0997d3;
-    font-size: 170px;
+    font-size: 140px;
     font-weight: bold;
     background-color: transparent;
 }
@@ -110,7 +110,7 @@ ul {
     margin-top: 50px;
     min-height: 250px;
     padding: 40px;
-    background: #141b29;
+    
 }
 
 /*--------------------------------------------------------------------nav buttons on top*/
@@ -120,7 +120,7 @@ ul {
     align-content: center;
     text-align: center;
 }
-.hvr-sweep-to-bottom:before {
+.hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
@@ -179,6 +179,9 @@ ul {
 .ui-menu-color-music{
     background-color: #558B2F;
 }
+.ui-menu-color-video{
+    background-color: #FFEA00;
+}
 .ui-menu-color-contact{
     background-color: #525252;
 }
@@ -224,7 +227,7 @@ h2{
     font-weight: bold;
 }
 .contactform{
-    margin-top: 60%;
+    margin-top: 20%;
 }
 h3{
     color: #000000;
@@ -261,10 +264,11 @@ label {
     font-size: 1em;
 }
 .logo {
-    margin-top: 0%;
+    margin-top: 0;
     background: url("../images/band1.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
     background-size: cover;
     min-height: 1000px;
     transition: all .5s ease-in-out;
@@ -273,6 +277,7 @@ label {
 }
 .logo1 {
     margin-top:5%;
+    text-align: center;
     background: url("../images/monkees1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -287,6 +292,7 @@ label {
     background: url("../images/microphone.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
     background-size: cover;
     min-height: 1000px;
     transition: all .5s ease-in-out;
@@ -298,6 +304,7 @@ label {
     margin-left: 35%;
     background: url("../images/band.jpg");
     background-repeat: no-repeat;
+    text-align: center;
     background-size: auto;
     height: 400px;
     width: 467px;
@@ -308,7 +315,20 @@ label {
     background: url("../images/oldmonkees.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
     background-size: auto;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.logo5 {
+    margin-top: 0;
+    background: url("../images/monkeesbnw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 85% 85%;
     min-height: 1000px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
