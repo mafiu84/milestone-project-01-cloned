@@ -1,23 +1,86 @@
-.navDefault {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #4a4a4f;
+
+
+.social-links{
+    position:fixed;
+    top:40;
+    left:60;
+    color: #8C7853;
+    background-color: transparent;
+    text-shadow: #4A766E;
+    font-size: 35px;
 }
+
+.sociallink{
+    margin: 15px;
+}
+
+.social-media{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.sociallink{
+        color: #8C7853;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-instagram{
+    color: #3f729b;
+}
+.fa-twitter{
+    color:#00acee;
+}
+.fa-spotify{
+    color:#81b71a;
+}
+.fa-linkedin-in{
+    color:#0e76a8;
+}
+.fa-soundcloud{
+    color: #ff7700;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    position: center;
+    background-color: #e84610;
+    color: #fafafa;
+} 
 
 a:link {
   text-decoration: none;
+  color: #0997d3;
+  text-shadow: #0997d3;
+  
 }
-
+a:music{
+    color: #fff;
+    background-color: #70640A;
+}
 .name{
-    margin-left: 30%;
+    margin-left: 15%;
     text-align: center;
     color: #8C7853; 
     size: large;
-    text-shadow: #4A766E;
-    font-size: 200px;
+    text-shadow: #0997d3;
+    font-size: 170px;
     font-weight: bold;
+    background-color: transparent;
+}
+.music{
+    margin:25px;
+    text-align: center;
+    color: #BF360C;
+    background-size: cover;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.music-button{
+    color: #fff;
+    background-color: transparent;
+    padding: 20px;
     
 }
 .home{
@@ -28,16 +91,98 @@ a:link {
 }
 .date{
     margin-top: 5%;
-    color:#C0D9D9;
+    color: #0997d3;
     font-size: 40px;
+    font-style: italic;
+    z-index:2;
+    font-weight: bold;
+    margin-left:30px;
+   
+}
+.videoframe{
+    margin-left: 35%;
+    
+}
+ul {
+  list-style: none
 }
 .row {
-    margin-top: 150px;
+    margin-top: 50px;
     min-height: 250px;
     padding: 40px;
-    
-    
+    background: #141b29;
 }
+
+/*--------------------------------------------------------------------nav buttons on top*/
+.row1 {
+    margin-right: -15px;
+    margin-left: -15px;
+    align-content: center;
+    text-align: center;
+}
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.ui-menu-color-home{
+    background-color: #e67e22;
+}
+
+.ui-menu-color-about{
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-pictures{
+    background-color: #3498db;
+}
+.ui-menu-color-music{
+    background-color: #558B2F;
+}
+.ui-menu-color-contact{
+    background-color: #525252;
+}
+/*-----------------------------------------------------------------------------meet*/
 .logo-dj{
     background: url("../images/dj.jpg");
     height: 250px;
@@ -68,19 +213,27 @@ a:link {
     background: url("../images/pt.jpg");
     height: 250px;
     width: 250px;
-    margin:100px;
+    margin: 100px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
 
 h2{
-    color: #C0D9D9;
-    font-weight: bolder;
+    color: #0997d3;
+    font-style: italic;
+    font-weight: bold;
+}
+.contactform{
+    margin-top: 60%;
+}
+h3{
+    color: #000000;
+    font-style: italic;
 }
 
 .background-about{
-    background-color: #AFAFAF;
-   border: 10px dotted black;
+    background-color: #8C7853;
+   border-style: double;
   padding: 15px;
   background-clip: border-box;
 }
@@ -89,9 +242,27 @@ h2{
     font-size: 20px;
     
 }
+
+bottom-text{
+    color: #000000;
+    font-style: italic;
+}
+label {
+    display: block;
+    font: 1.2rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0 10px;
+}
+
+.note {
+    font-size: 1em;
+}
 .logo {
-    margin-top: 10%;
-    background: url("../images/monkees.jpg");
+    margin-top: 0%;
+    background: url("../images/band1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +271,6 @@ h2{
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
 .logo1 {
     margin-top:5%;
     background: url("../images/monkees1.jpg");
@@ -112,13 +282,33 @@ h2{
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
 .logo2{
-     margin-top:0%;
-    background: url("../images/band.jpg");
+    margin-top:0%;
+    background: url("../images/microphone.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 600px 600px;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+      }
+.logo3{
+    margin-top:15%;
+    margin-left: 35%;
+    background: url("../images/band.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 400px;
+    width: 467px;
+    background-position: center;
+}
+.logo4{
+    margin-top: 0%;
+    background: url("../images/oldmonkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
     min-height: 1000px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -127,13 +317,11 @@ h2{
 button {
     border: none;
     background-color: #0997d3;
-    width: 150px;
+    width: 200px;
     height: 50px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
-    border-radius: 8px;
-    display: inline-block;
 }
 
 .dropdownMenu{
@@ -145,11 +333,12 @@ button {
     right: 0;
     top: 50px;
     z-index: -1;
-    width: 150px;
+    width: 200px;
     text-align: center;
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
     transform: translateY(-100%);
     transition: transform .5s ease-in-out;
+    background-color: #525252;
 }
 
 .dropdownLink {
