@@ -1,3 +1,6 @@
+BODY {
+   font-family: "Source Sans Pro";
+}
 
 
 .social-links{
@@ -10,55 +13,119 @@
     font-size: 30px;
 }
 
+
 .sociallink{
     margin: 15px;
 }
+
 
 .social-media{
   margin:0;
   padding:0;
   list-style:none;
 }
+
+
 .sociallink{
         color: #8C7853;
 }
 
+
 .fa-facebook{
     color: #3b5998;
 }
+
+
 .fa-instagram{
     color: #3f729b;
 }
+
+
 .fa-twitter{
     color:#00acee;
 }
+
+
 .fa-spotify{
     color:#81b71a;
 }
+
+
 .fa-linkedin-in{
     color:#0e76a8;
 }
+
+
 .fa-soundcloud{
     color: #ff7700;
 }
+
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    position: center;
     background-color: #525252;
     color: #fafafa;
 } 
+
 
 a:link {
   text-decoration: none;
   color: #0997d3;
   text-shadow: #0997d3;
-  
 }
+
+
 a:music{
     color: #fff;
     background-color: #70640A;
 }
+
+
+.music{
+    margin:25px;
+    text-align: center;
+    color: #BF360C;
+    background-size: cover;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
+.music-button{
+    color: #fff;
+    background-color: transparent;
+    padding: 20px;
+}
+
+
+.home{
+    margin-top: 5%;
+    color:#C0D9D9;
+    font-size: 40px;
+}
+
+
+.date{
+    margin-top: 5%;
+    color: #0997d3;
+    font-size: 40px;
+    font-style: italic;
+    z-index:2;
+    font-weight: bold;
+    margin-left:30px;
+}
+
+
+.videoframe{
+    margin-left: 35%;
+}
+
+
+ul {
+  list-style: none
+}
+/*--------------------------------------------------------------------name*/
 .name{
     margin-left: 0;
     display: inline-block;
@@ -69,48 +136,17 @@ a:music{
     font-weight: bold;
     background-color: transparent;
 }
-.music{
-    margin:25px;
-    text-align: center;
-    color: #BF360C;
-    background-size: cover;
-    font-size: 40px;
-    font-weight: bolder;
-}
-.music-button{
-    color: #fff;
-    background-color: transparent;
-    padding: 20px;
-    
-}
-.home{
-    margin-top: 5%;
-    color:#C0D9D9;
-    font-size: 40px;
-    
-}
-.date{
-    margin-top: 5%;
-    color: #0997d3;
-    font-size: 40px;
-    font-style: italic;
-    z-index:2;
-    font-weight: bold;
-    margin-left:30px;
-   
-}
-.videoframe{
-    margin-left: 35%;
-    
-}
-ul {
-  list-style: none
-}
+
+
 .row {
     margin-top: 50px;
     min-height: 250px;
     padding: 40px;
-    
+}
+
+
+h2{
+   font-size: 25px; 
 }
 
 /*--------------------------------------------------------------------nav buttons on top*/
@@ -120,6 +156,8 @@ ul {
     align-content: center;
     text-align: center;
 }
+
+
 .hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
@@ -130,15 +168,18 @@ ul {
     margin: 0;
 }
 
+
 #nav li {
     padding: 0;
 }
+
 
 .menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
+
 
 .menuitem a {
     width: 100%;
@@ -147,12 +188,14 @@ ul {
     height: 120px;
 }
 
+
 .menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
 }
+
 
 .menuitem span {
     display: block;
@@ -165,26 +208,37 @@ ul {
     letter-spacing: 2px;
 }
 
+
 .ui-menu-color-home{
     background-color: #e67e22;
 }
+
 
 .ui-menu-color-about{
     background-color: #9b59b6;
 }
 
+
 .ui-menu-color-pictures{
     background-color: #3498db;
 }
+
+
 .ui-menu-color-music{
     background-color: #558B2F;
 }
+
+
 .ui-menu-color-video{
     background-color: #FFEA00;
 }
+
+
 .ui-menu-color-contact{
     background-color: #525252;
 }
+
+
 /*-----------------------------------------------------------------------------meet*/
 .logo-dj{
     background: url("../images/dj.jpg");
@@ -193,8 +247,9 @@ ul {
     margin:100px;
     background-repeat: no-repeat;
     margin-top: auto;
-
 }
+
+
 .logo-md{
     background: url("../images/md.jpg");
     height: 250px;
@@ -203,6 +258,8 @@ ul {
     background-repeat: no-repeat;
     margin-top: auto;
 }
+
+
 .logo-mn{
     background: url("../images/mn.jpg");
     height: 250px;
@@ -211,6 +268,7 @@ ul {
     background-repeat: no-repeat;
     margin-top: auto;
 }
+
 
 .logo-pt{
     background: url("../images/pt.jpg");
@@ -221,18 +279,24 @@ ul {
     margin-top: auto;
 }
 
+
 h2{
     color: #0997d3;
     font-style: italic;
     font-weight: bold;
 }
+
+
 .contactform{
     margin-top: 20%;
 }
+
+
 h3{
-    color: #000000;
+    color: #fff;
     font-style: italic;
 }
+
 
 .background-about{
     background-color: #8C7853;
@@ -240,29 +304,43 @@ h3{
   padding: 15px;
   background-clip: border-box;
 }
+
+
+.background-meet{
+    background-color: black;
+}
+
+
 .fas fa-home{
     font-weight: bold;
     font-size: 20px;
     
 }
 
+
 bottom-text{
     color: #000000;
     font-style: italic;
 }
+
+
 label {
     display: block;
     font: 1.2rem 'Fira Sans', sans-serif;
 }
+
 
 input,
 label {
     margin: 0 10px;
 }
 
+
 .note {
     font-size: 1em;
 }
+
+
 .logo {
     margin-top: 0;
     background: url("../images/band1.jpg");
@@ -275,6 +353,8 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+
 .logo1 {
     margin-top:5%;
     text-align: center;
@@ -287,6 +367,8 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+
 .logo2{
     margin-top:0%;
     background: url("../images/microphone.jpg");
@@ -298,18 +380,19 @@ label {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-      }
-.logo3{
-    margin-top:15%;
-    margin-left: 35%;
-    background: url("../images/band.jpg");
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: auto;
-    height: 400px;
-    width: 467px;
-    background-position: center;
 }
+
+
+.logo3{
+    background: url("../images/band.jpg");
+    height: 250px;
+    width: 250px;
+    margin: 100px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+
+
 .logo4{
     margin-top: 0%;
     background: url("../images/oldmonkees.jpg");
@@ -322,18 +405,22 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+
 .logo5 {
     margin-top: 0;
     background: url("../images/monkeesbnw.jpg");
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    background-size: 85% 85%;
+    background-size: cover;
     min-height: 1000px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
+
 button {
     border: none;
     background-color: #0997d3;
@@ -343,6 +430,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
+
 
 .dropdownMenu{
     list-style: none;
@@ -361,6 +449,7 @@ button {
     background-color: #525252;
 }
 
+
 .dropdownLink {
     text-decoration: none;
     display: block;
@@ -370,21 +459,60 @@ button {
     transition: background-color .5s ease-in-out, color .5s ease-in-out;
 }
 
+
 .dropdownLink:hover {
     color: #fff;
     background-color: #a0a0a3;
 }
+
 
 .dropdown {
     width: 150px;
     position: relative;
 }
 
+
 .dropdown:hover button {
     background-color: #018ec5;
     
 }
 
+
 .dropdown:hover .dropdownMenu {
     transform: translateY(0);
+}
+
+
+@media(max-width: 360px)
+{.name    {
+    margin-left: 0;
+    margin-top: 30px;
+    display: inline-block;
+    color: #8C7853; 
+    size: large;
+    text-shadow: #0997d3;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: transparent;
+    transform: rotate(-15deg);
+}
+
+@media(min-width: 361px) and (max-width: 768px)
+{.name    {
+    margin-left: 0;
+    margin-top: 30px;
+    display: inline-block;
+    color: #8C7853; 
+    size: large;
+    text-shadow: #0997d3;
+    font-size: 60px;
+    font-weight: bold;
+    background-color: transparent;
+    transform: rotate(15deg);
+}
+}
+
+@media(min-width: 769px)
+{
+  
 }
