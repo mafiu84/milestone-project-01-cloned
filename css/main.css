@@ -3,22 +3,6 @@ BODY {
 }
 
 
-.social-links{
-    position: fixed;
-    border: 3px solid #0997d3;
-    top:10;
-    right:100;
-    color: #8C7853;
-    background-color: transparent;
-    font-size: 30px;
-}
-
-
-.sociallink{
-    margin: 15px;
-}
-
-
 .social-media{
   margin:0;
   padding:0;
@@ -132,10 +116,6 @@ ul {
 }
 
 
-h2{
-   font-size: 25px; 
-}
-
 /*--------------------------------------------------------------------nav buttons on top*/
 .row1 {
     margin-right: -15px;
@@ -231,7 +211,7 @@ h2{
     background: url("../images/dj.jpg");
     height: 250px;
     width: 250px;
-    margin:100px;
+    margin:10px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -241,7 +221,7 @@ h2{
     background: url("../images/md.jpg");
     height: 250px;
     width: 250px;
-    margin:100px;
+    margin:10px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -251,7 +231,7 @@ h2{
     background: url("../images/mn.jpg");
     height: 250px;
     width: 250px;
-    margin:100px;
+    margin:10px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -261,21 +241,31 @@ h2{
     background: url("../images/pt.jpg");
     height: 250px;
     width: 250px;
-    margin: 100px;
+    margin: 10px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
-
-
+/*-------------------------------------------------------------------contact*/
 h2{
     color: #0997d3;
     font-style: italic;
     font-weight: bold;
+    font-size: 25px; 
 }
 
 
-.contactform{
-    margin-top: 20%;
+.col-xs-6  {
+    margin-top:20%;   
+}
+
+
+.col-md-4{
+     margin-top:5%;
+}
+
+
+form{
+    text-align: left;
 }
 
 
@@ -291,11 +281,6 @@ h3{
   padding: 15px;
   background-clip: border-box;
   background-size: cover;
-}
-
-
-.row-container-fluid{
-    background-size: cover;
 }
 
 
@@ -355,19 +340,6 @@ label {
 }
 
 
-.logo1 {
-    margin-top:5%;
-    text-align: center;
-    background: url("../images/monkees1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    min-height: 300px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
 
 .logo2{
     margin-top:0%;
@@ -399,26 +371,13 @@ label {
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
-    background-size: auto;
-    min-height: 1000px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-
-
-.logo5 {
-    margin-top: 0;
-    background: url("../images/monkeesbnw.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
     background-size: cover;
     min-height: 1000px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
+
 
 
 button {
@@ -484,32 +443,81 @@ button {
 
 
 video{
-    margin-top: 40px;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 /*-----------------------------------------------------------------media queries*/
 @media(max-width: 768px)
 {
-    .name    {
+.name    {
     margin-left: 0;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    padding-bottom: 60px;
     display: inline-block;
+    padding-top: 0;
     color: #8C7853; 
     text-shadow: #0997d3;
     font-size: 40px;
     font-weight: bold;
     background-color: transparent;
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
 }
+.description{
+    color: #8C7853;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
 }
+
+.contactform{
+    margin-top: 10%;
+    text-align: left;
+    margin-right: 5px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    display:inline-block;
+    border:3px #0997d3 solid;
+    position: left;
+    width:40%;}
+}
+
+
+.social-links{
+    position: fixed;
+    border: 3px solid #0997d3;
+    top:35%;
+    right:3%;
+    color: #8C7853;
+    background-color: transparent;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+
+.follow {
+	font-size: 30px;
+	color: red;
+	animation: beat .5s infinite alternate;
+	transform-origin: right;
+	text-align: right;
+	font-weight: lighter;
+	position: fixed;
+	top: 30%;
+	right: 1%;
+}
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+
+
+
+
 
 
 @media(min-width: 769px)
 {
-  .name{
+ .name{
     margin-left: 0;
     display: inline-block;
     color: #8C7853; 
@@ -518,4 +526,46 @@ video{
     font-weight: bold;
     background-color: transparent;
 }
+.description{
+    color: #8C7853;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.contactform{
+    margin-top: 40%;
+    text-align: left;
+    margin-right: 5px;
+}
+
+
+.social-links{
+    position: fixed;
+    border: 3px solid #0997d3;
+    top:25%;
+    right:3%;
+    color: #8C7853;
+    background-color: transparent;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+
+.follow {
+	font-size: 30px;
+	color: red;
+	animation: beat .5s infinite alternate;
+	transform-origin: right;
+	text-align: right;
+	font-weight: lighter;
+	position: fixed;
+	top: 20%;
+	right: 1%;
+}
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
 }
