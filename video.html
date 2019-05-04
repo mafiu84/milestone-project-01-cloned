@@ -36,7 +36,11 @@
   <div class="background-about">
    <div class="logo5"><a class="name" href="index.html">The Monkees</a>
                    
-                    <embed class="videoframe" src="music/TheMonkees.mp4" width="600px" height="600px">
+                    <video id="vid" onmouseover="this.play()" onmouseout="this.pause()"
+  autobuffer="true" width="60%" height="auto">
+  <source src="music/TheMonkees.mp4" type='video/mp4; codecs="mp4a.40.2"'>
+</video>
+
                     </div>
                     </div>
 </body>
