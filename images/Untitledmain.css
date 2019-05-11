@@ -1,8 +1,3 @@
-html{
-    display: inline-block;
-}
-
-
 BODY {
    font-family: "Source Sans Pro";
 }
@@ -74,21 +69,19 @@ button[type="submit"] {
 } 
 
 
-/*********music********/
-
-
 a:link {
-    text-decoration: none
+  text-decoration: none;
+  color: #0997d3;
 }
+
 
 .music{
     margin:25px;
     text-align: center;
-    color: #337ab7;
+    color: #BF360C;
     background-size: cover;
+    font-size: 40px;
     font-weight: bolder;
-    background-color: #525252;
-    box-shadow: 0 0 0 5px;
 }
 
 
@@ -96,9 +89,6 @@ a:link {
     color: #fff;
     background-color: transparent;
     padding: 20px;
-    font-weight: bold;
-    font-size: 25px;
-    font-style: italic;
 }
 
 
@@ -286,8 +276,12 @@ form{
 }
 
 
-.body background{
-    background-repeat: no-repeat;
+.background-about{
+    background-color: #8C7853;
+    border-style: double;
+    padding: 4px;
+    background-clip: border-box;
+    background-size: cover;
 }
 
 
@@ -309,7 +303,7 @@ label {
 }
 
 
-/***logo
+
 .logo {
     margin-top: 0;
     background: url("../images/band.jpg");
@@ -323,8 +317,7 @@ label {
     -webkit-transition: all .5s ease-in-out;
 }
 
-***/
-/***logo2
+
 .logo2{
     margin-top:0%;
     background: url("../images/microphone.jpg");
@@ -337,8 +330,8 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-***/
-/****logo3
+
+
 .logo3{
     margin-top:0%;
     background: url("../images/monkeesbnw.jpg");
@@ -348,11 +341,11 @@ label {
     background-size: cover;
     min-height: 800px;
     transition: all .5s ease-in-out;
-    -moz-transition: all .5 ease-in-out;
+    -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-***/
-/***logo4
+
+
 .logo4{
     margin-top: 0%;
     background: url("../images/oldmonkees.jpg");
@@ -365,9 +358,9 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-***/
 
-/***logo5
+/***logo5**/
+
 .logo5{
     margin-top: 0%;
     background: url("../images/album2.jpg");
@@ -382,10 +375,9 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-**/
 
+/**logo6**/
 
-/**logo6
 .logo6{
     margin-top: 0%;
     background: url("../images/cover3.jpg");
@@ -398,7 +390,6 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-**/
 button {
     border: none;
     background-color: #0997d3;
@@ -409,14 +400,6 @@ button {
     cursor: pointer;
 }
 
-.date{
-    margin-top: 5%;
-    color: #0997d3;
-     font-style: italic;
-    z-index:2;
-    font-weight: bold;
-    margin-left:30px;
-}
 
 video{
     padding-top: 30px;
@@ -424,21 +407,17 @@ video{
 
 /*-----------------------------------------------------------------media queries*/
 
-@media(max-width: 768px){
-body{
-  background-position: left 0% top 240px;
-}
-.name{
+@media(max-width: 768px)
+{
+.name    {
     margin-left: 0;
     display: inline-block;
     padding-top: 10%;
+    color: #8C7853; 
     font-size: 40px;
     font-weight: bold;
-    color: #337ab7;
+    background-color: transparent;
     transform: rotate(-20deg);
-}
-.date{
-    font-size: 15px;
 }
 .description{
     color: #0997d3;
@@ -446,9 +425,7 @@ body{
     font-weight: bold;
     padding: 10px;
 }
-.music{
-    font-size: 20px;
-}
+
 .contactform{
     text-align: left;
     margin-right: 5px;
@@ -459,78 +436,24 @@ body{
     display:inline-block;
     border:3px #0997d3 solid;
     position: relative;
-    width:40%;
+    width:40%;}
 }
+
+
 .social-links{
     position: fixed;
     border: 3px solid #0997d3;
-    top:63%;
+    top:35%;
     right:3%;
     color: #8C7853;
     background-color: transparent;
     font-size: 30px;
     padding-left: 5px;
-}
-.follow{
-	font-size: 15px;
-	color: red;
-	animation: beat .5s infinite alternate;
-	transform-origin: right;
-	text-align: right;
-	font-weight: lighter;
-	position: fixed;
-	top: 75%;
-	right: 20%;
-}
-}
-@keyframes beat{
-	to { transform: scale(1.4); }
 }
 
-@media(min-width: 769px)
-{
-body {
-  background-position: left 0% top 120px;
-}
-.name{
-    margin-left: 0;
-    display: inline-block;
-    font-size: 140px;
-    font-weight: bold;
-    background-color: transparent;
-}
-.date{
-    font-size: 30px;
-}
-.description{
-    color: #0997d3;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
-}
-.music
-{
-    font-size: 27px;
-}
-.contactform
-{
-    margin-top: 40%;
-    text-align: left;
-    margin-right: 5px;
-}
-.social-links
-{
-    position: fixed;
-    border: 3px solid #0997d3;
-    top:40%;
-    right:3%;
-    color: #8C7853;
-    background-color: transparent;
-    font-size: 30px;
-    padding-left: 5px;
-}
-.follow 
-{
+
+
+.follow {
 	font-size: 30px;
 	color: red;
 	animation: beat .5s infinite alternate;
@@ -538,8 +461,64 @@ body {
 	text-align: right;
 	font-weight: lighter;
 	position: fixed;
-	top: 50%;
-	right: 10%;
+	top: 30%;
+	right: 1%;
+}
+
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
+
+
+@media(min-width: 769px)
+{
+ .name{
+    margin-left: 0;
+    display: inline-block;
+    color: #8C7853; 
+    font-size: 140px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+
+.description{
+    color: #0997d3;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+.contactform{
+    margin-top: 40%;
+    text-align: left;
+    margin-right: 5px;
+}
+
+
+.social-links{
+    position: fixed;
+    border: 3px solid #0997d3;
+    top:25%;
+    right:3%;
+    color: #8C7853;
+    background-color: transparent;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+
+.follow {
+	font-size: 30px;
+	color: red;
+	animation: beat .5s infinite alternate;
+	transform-origin: right;
+	text-align: right;
+	font-weight: lighter;
+	position: fixed;
+	top: 20%;
+	right: 1%;
 }
 }
 @keyframes beat{
