@@ -59,12 +59,6 @@ a:link {
 }
 
 
-a:music{
-    color: #fff;
-    background-color: #70640A;
-}
-
-
 .music{
     margin:25px;
     text-align: center;
@@ -82,13 +76,6 @@ a:music{
 }
 
 
-.home{
-    margin-top: 5%;
-    color:#C0D9D9;
-    font-size: 40px;
-}
-
-
 .date{
     margin-top: 5%;
     color: #0997d3;
@@ -103,16 +90,17 @@ a:music{
 ul {
   list-style: none
 }
-/*--------------------------------------------------------------------name*/
-.name-media{
-    padding: 15px;
-}
 
+
+/*--------------------------------------------------------------------name*/
 
 .row {
-    margin-top: 50px;
-    min-height: 250px;
-    padding: 40px;
+    min-height: 320px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    align-content: center;
 }
 
 
@@ -209,9 +197,8 @@ ul {
 /*-----------------------------------------------------------------------------meet*/
 .logo-dj{
     background: url("../images/dj.jpg");
-    height: 250px;
-    width: 250px;
-    margin:10px;
+    height: 320px;
+    width: 320px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -219,9 +206,8 @@ ul {
 
 .logo-md{
     background: url("../images/md.jpg");
-    height: 250px;
-    width: 250px;
-    margin:10px;
+    height: 320px;
+    width: 320px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -229,9 +215,8 @@ ul {
 
 .logo-mn{
     background: url("../images/mn.jpg");
-    height: 250px;
-    width: 250px;
-    margin:10px;
+    height: 320px;
+    width: 320px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -239,12 +224,13 @@ ul {
 
 .logo-pt{
     background: url("../images/pt.jpg");
-    height: 250px;
-    width: 250px;
-    margin: 10px;
+    height: 320px;
+    width: 320px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
+
+
 /*-------------------------------------------------------------------contact*/
 h2{
     color: #0997d3;
@@ -256,11 +242,22 @@ h2{
 
 .col-xs-6  {
     margin-top:20%;   
+    align-content: center;
+
 }
 
 
 .col-md-4{
      margin-top:5%;
+     align-content: center;
+}
+
+
+.col-xl-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
 }
 
 
@@ -277,35 +274,16 @@ h3{
 
 .background-about{
     background-color: #8C7853;
-   border-style: double;
-  padding: 15px;
-  background-clip: border-box;
-  background-size: cover;
+    border-style: double;
+    padding: 4px;
+    background-clip: border-box;
+    background-size: cover;
 }
 
 
 .background-meet{
     background-color: black;
     background-size: cover;
-}
-
-
-.listen-mp3{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-
-.fas fa-home{
-    font-weight: bold;
-    font-size: 20px;
-    
-}
-
-
-bottom-text{
-    color: #000000;
-    font-style: italic;
 }
 
 
@@ -321,10 +299,6 @@ label {
 }
 
 
-.note {
-    font-size: 1em;
-}
-
 
 .logo {
     margin-top: 0;
@@ -338,7 +312,6 @@ label {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
 
 
 .logo2{
@@ -356,12 +329,16 @@ label {
 
 
 .logo3{
-    background: url("../images/band.jpg");
-    height: 250px;
-    width: 250px;
-    margin: 100px;
+    margin-top:0%;
+    background: url("../images/monkeesbnw.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    margin-top: auto;
+    text-align: center;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 
@@ -379,7 +356,32 @@ label {
 }
 
 
+.logo5{
+    margin-top: 0%;
+    background: url("../images/album2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 
+
+.logo6{
+    margin-top: 0%;
+    background: url("../images/cover3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 1000px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
 button {
     border: none;
     background-color: #0997d3;
@@ -391,68 +393,18 @@ button {
 }
 
 
-.dropdownMenu{
-    list-style: none;
-    margin:0;
-    padding: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50px;
-    z-index: -1;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
-    transform: translateY(-100%);
-    transition: transform .5s ease-in-out;
-    background-color: #525252;
-}
-
-
-.dropdownLink {
-    text-decoration: none;
-    display: block;
-    background-color: #f9f9f9;
-    color: #4a4a4f;
-    padding: 10px 5px;
-    transition: background-color .5s ease-in-out, color .5s ease-in-out;
-}
-
-
-.dropdownLink:hover {
-    color: #fff;
-    background-color: #a0a0a3;
-}
-
-
-.dropdown {
-    width: 150px;
-    position: relative;
-}
-
-
-.dropdown:hover button {
-    background-color: #018ec5;
-    
-}
-
-
-.dropdown:hover .dropdownMenu {
-    transform: translateY(0);
-}
-
-
 video{
     padding-top: 30px;
 }
 
 /*-----------------------------------------------------------------media queries*/
+
 @media(max-width: 768px)
 {
 .name    {
     margin-left: 0;
     display: inline-block;
-    padding-top: 0;
+    padding-top: 10%;
     color: #8C7853; 
     text-shadow: #0997d3;
     font-size: 40px;
@@ -461,14 +413,13 @@ video{
     transform: rotate(-20deg);
 }
 .description{
-    color: #8C7853;
+    color: #0997d3;
     font-size: 15px;
     font-weight: bold;
     padding: 10px;
 }
 
 .contactform{
-    margin-top: 10%;
     text-align: left;
     margin-right: 5px;
     padding-right: 10px;
@@ -477,7 +428,7 @@ video{
     font-weight: bold;
     display:inline-block;
     border:3px #0997d3 solid;
-    position: left;
+    position: relative;
     width:40%;}
 }
 
@@ -505,14 +456,10 @@ video{
 	top: 30%;
 	right: 1%;
 }
+
 @keyframes beat{
 	to { transform: scale(1.4); }
 }
-
-
-
-
-
 
 
 @media(min-width: 769px)
@@ -526,8 +473,10 @@ video{
     font-weight: bold;
     background-color: transparent;
 }
+
+
 .description{
-    color: #8C7853;
+    color: #0997d3;
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
