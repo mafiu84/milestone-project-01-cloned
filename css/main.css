@@ -222,7 +222,7 @@ ul {
 
 /*-----------------------------------------------------------------------------meet*/
 .logo-dj{
-    background: url("../images/dj.jpg");
+    background: url("/images/dj.jpg");
     height: 320px;
     width: 320px;
     background-repeat: no-repeat;
@@ -231,7 +231,7 @@ ul {
 
 
 .logo-md{
-    background: url("../images/md.jpg");
+    background: url("/images/md.jpg");
     height: 320px;
     width: 320px;
     background-repeat: no-repeat;
@@ -240,7 +240,7 @@ ul {
 
 
 .logo-mn{
-    background: url("../images/mn.jpg");
+    background: url("/images/mn.jpg");
     height: 320px;
     width: 320px;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@ ul {
 
 
 .logo-pt{
-    background: url("../images/pt.jpg");
+    background: url("/images/pt.jpg");
     height: 320px;
     width: 320px;
     background-repeat: no-repeat;
@@ -312,7 +312,7 @@ label {
 /***logo
 .logo {
     margin-top: 0;
-    background: url("../images/band.jpg");
+    background: url(",,/images/band.jpg");
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;

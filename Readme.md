@@ -37,7 +37,9 @@ Font awesome
 
 TESTING
 
-
+HTML tested in official validator
+CSS tested in official validator
+Also I've tested website in chrome devtools for responsiveness
 
 
 
