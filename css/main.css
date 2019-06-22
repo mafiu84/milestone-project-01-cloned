@@ -93,7 +93,7 @@ a:link {
 
 
 .music-button{
-    color: #fff;
+    color: yellow;
     background-color: transparent;
     padding: 20px;
     font-weight: bold;
@@ -222,36 +222,36 @@ ul {
 
 /*-----------------------------------------------------------------------------meet*/
 .logo-dj{
-    background: url("/images/dj.jpg");
-    height: 320px;
-    width: 320px;
+    
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
 
 
 .logo-md{
-    background: url("/images/md.jpg");
-    height: 320px;
-    width: 320px;
+  
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
 
 
 .logo-mn{
-    background: url("/images/mn.jpg");
-    height: 320px;
-    width: 320px;
+   
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
 
 
 .logo-pt{
-    background: url("/images/pt.jpg");
-    height: 320px;
-    width: 320px;
+    
+    height: 200px;
+    width: 200px;
     background-repeat: no-repeat;
     margin-top: auto;
 }
@@ -285,7 +285,7 @@ form{
     text-align: left;
 }
 
-
+/**
 .body background{
     background-repeat: no-repeat;
 }
@@ -308,7 +308,7 @@ label {
     margin: 0 10px;
 }
 
-
+**/
 /***logo
 .logo {
     margin-top: 0;
@@ -384,7 +384,6 @@ label {
 }
 **/
 
-
 /**logo6
 .logo6{
     margin-top: 0%;
@@ -399,6 +398,7 @@ label {
     -webkit-transition: all .5s ease-in-out;
 }
 **/
+
 button {
     border: none;
     background-color: #0997d3;
@@ -422,6 +422,7 @@ video{
     padding-top: 30px;
 }
 
+
 /*-----------------------------------------------------------------media queries*/
 
 @media(max-width: 768px){
@@ -440,15 +441,15 @@ body{
 .date{
     font-size: 15px;
 }
+ /**   
 .description{
     color: #0997d3;
     font-size: 15px;
     font-weight: bold;
     padding: 10px;
 }
-.music{
-    font-size: 20px;
-}
+**/
+
 .contactform{
     text-align: left;
     margin-right: 5px;
@@ -483,10 +484,12 @@ body{
 	right: 20%;
 }
 }
+
+/**
 @keyframes beat{
 	to { transform: scale(1.4); }
 }
-
+**/
 @media(min-width: 769px)
 {
 body {
@@ -502,16 +505,14 @@ body {
 .date{
     font-size: 30px;
 }
+/**
 .description{
     color: #0997d3;
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
 }
-.music
-{
-    font-size: 27px;
-}
+**/
 .contactform
 {
     margin-top: 40%;
@@ -542,8 +543,9 @@ body {
 	right: 10%;
 }
 }
+/**
 @keyframes beat{
 	to { transform: scale(1.4); }
 }
-
+**/
 
