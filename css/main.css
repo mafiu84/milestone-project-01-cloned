@@ -21,14 +21,15 @@ h2{
     color: #0997d3;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.4em; 
+    font-size: 1em; 
+    margin-top: 5px;
 }
 
 
 h3{
     color: black;
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 
 
@@ -259,6 +260,10 @@ ul {
     margin-top: auto;
 }
 
+.col-xs-12{
+    width: 100%;
+}
+
 
 /*-------------------------------------------------------------------contact*/
 
@@ -281,6 +286,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
     align-content: center;
+    float: none;
 }
 
 
@@ -344,6 +350,11 @@ video{
 .date{
     font-size: 0.6em;
     font-weight: normal;
+}
+/**image and description sizes meet.html**/
+img{
+    width: 50px;
+    height: 50px;
 }
 /**buttons down and up index**/
 .last {
@@ -577,7 +588,7 @@ ul li{
 /**media querries  768-991px**/
 @media(max-width: 991px) and (min-width: 768px)
 {
-/**name meet, pictures**/
+/**name meet.html, pictures**/
 .name {
     margin-left: 0;
     display: inline-block;
@@ -585,9 +596,15 @@ ul li{
     font-weight: bold;
     background-color: transparent;
 }
+/**image and description sizes meet.html**/
+img{
+    width: 150px;
+    height: 150px;
+}
 /**date about**/
 .date{
     font-size: 1.5em;
+    margin-top: 1%;
 }
 /**buttons down and up index**/
 .last {
@@ -721,9 +738,14 @@ ul li {
 /**media querries  992px+**/
 @media(min-width: 992px){
 /**buttons down and up index**/
+/**image and description sizes meet.html**/
+img{
+    width: 175px;
+    height: 175px;
+}
 /**date about**/
 .date{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .last {
     position: fixed;
