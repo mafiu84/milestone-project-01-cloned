@@ -1,0 +1,136 @@
+/**media querries 991px+**/
+
+
+
+
+/**media querries 768-991px**/
+
+
+
+
+
+
+
+/**media querries 767-262px**/
+
+
+
+
+/**media querries 262px-**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***logo
+.logo {
+    margin-top: 0;
+    background: url(",,/images/band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 700px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+***/
+/***logo2
+.logo2{
+    margin-top:0%;
+    background: url("../images/microphone.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+***/
+/****logo3
+.logo3{
+    margin-top:0%;
+    background: url("../images/monkeesbnw.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 800px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5 ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+***/
+/***logo4
+.logo4{
+    margin-top: 0%;
+    background: url("../images/oldmonkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    min-height: 700px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+***/
+
+/***logo5
+.logo5{
+    margin-top: 0%;
+    background: url("../images/album2.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-color: transparent;
+    min-width: 100%;
+    min-height: 100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+**/
+
+/**logo6
+.logo6{
+    margin-top: 0%;
+    background: url("../images/cover3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    min-height: 700px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+**/
+
+
+
+ body{
+        background-repeat: no-repeat;
+        text-align: center;
+        background-size: contain;
+        background-position: 50% -45%;
+        }
+        
+        
+        <body background="images/monkees-music.jpg" aria-label="The Monkees on red background, sitting on bar hookers">

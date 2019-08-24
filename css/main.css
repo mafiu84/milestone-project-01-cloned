@@ -5,6 +5,15 @@ html{
 
 BODY {
    font-family: "Source Sans Pro";
+   background-color: black;
+}
+
+
+h1{
+    color: #0997d3;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em; 
 }
 
 
@@ -12,16 +21,15 @@ h2{
     color: #0997d3;
     font-style: italic;
     font-weight: bold;
-    font-size: 18px; 
+    font-size: 1.4em; 
 }
 
 
 h3{
-    color: #fff;
+    color: black;
     font-style: italic;
-    font-size: 15px;
+    font-size: 1.1em;
 }
-
 
 
 .social-media{
@@ -78,8 +86,10 @@ button[type="submit"] {
 
 
 a:link {
-    text-decoration: none
+    text-decoration: none;
 }
+
+
 
 .music{
     margin:25px;
@@ -93,24 +103,16 @@ a:link {
 
 
 .music-button{
-    color: yellow;
-    background-color: transparent;
+    color: black;
+    background-color: white;
     padding: 20px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.6em;
     font-style: italic;
 }
 
 
-.date{
-    margin-top: 5%;
-    color: #0997d3;
-    font-size: 40px;
-    font-style: italic;
-    z-index:2;
-    font-weight: bold;
-    margin-left:30px;
-}
+
 
 
 ul {
@@ -123,22 +125,23 @@ ul {
 .row {
     min-height: 320px;
     margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
     position: static;
     align-content: center;
+    margin-left:15px;
+    margin-right:15px;
 }
 
 
 /*--------------------------------------------------------------------nav buttons on top*/
 .row1 {
-    margin-right: -15px;
-    margin-left: -15px;
     align-content: center;
     text-align: center;
 }
 
-
+.container-fluid {
+    padding-right: -25px;
+    padding-left: -25px;
+}
 .hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
@@ -268,7 +271,7 @@ ul {
 
 
 .col-md-4{
-     margin-top:5%;
+     margin-top:2%;
      align-content: center;
 }
 
@@ -285,7 +288,7 @@ form{
     text-align: left;
 }
 
-/**
+
 .body background{
     background-repeat: no-repeat;
 }
@@ -308,193 +311,307 @@ label {
     margin: 0 10px;
 }
 
-**/
-/***logo
-.logo {
-    margin-top: 0;
-    background: url(",,/images/band.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    min-height: 700px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
 
-***/
-/***logo2
-.logo2{
-    margin-top:0%;
-    background: url("../images/microphone.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    min-height: 400px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-***/
-/****logo3
-.logo3{
-    margin-top:0%;
-    background: url("../images/monkeesbnw.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    min-height: 800px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5 ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-***/
-/***logo4
-.logo4{
-    margin-top: 0%;
-    background: url("../images/oldmonkees.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
 
-    min-height: 700px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-***/
-
-/***logo5
-.logo5{
-    margin-top: 0%;
-    background: url("../images/album2.jpg");
-    position: relative;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    background-color: transparent;
-    min-width: 100%;
-    min-height: 100%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-**/
-
-/**logo6
-.logo6{
-    margin-top: 0%;
-    background: url("../images/cover3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: cover;
-    min-height: 700px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-**/
-
+/************************************************************************contact*/
 button {
     border: none;
     background-color: #0997d3;
-    width: 200px;
-    height: 50px;
+    width: 40%;
+    height: 6%;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
 }
-
-.date{
-    margin-top: 5%;
-    color: #0997d3;
-     font-style: italic;
-    z-index:2;
-    font-weight: bold;
-    margin-left:30px;
-}
-
+/*************************************************************video*/
 video{
     padding-top: 30px;
 }
-
-
-/*-----------------------------------------------------------------media queries*/
-
-@media(max-width: 768px){
-body{
-  background-position: left 0% top 240px;
+/*************************************************************************************************about**/
+.date {
+    margin-top: 5%;
+    color: #0997d3;
+    font-style: italic;
+    z-index: 2;
+    font-weight: bold;
+      text-align: center;
 }
-.name{
+/*********************************************************contact***********************************/
+/*-----------------------------------------------------------------media queries*/
+/**media querries  262px-**/
+@media(max-width:262px){
+    /**date about**/
+.date{
+    font-size: 0.6em;
+    font-weight: normal;
+}
+/**buttons down and up index**/
+.last {
+    position: fixed;
+    top: 55%;
+    left: 0%;
+    transform: rotate(-90deg);
+}
+.first {
+    position: fixed;
+    top: 55%;
+    right: 0%;
+    transform: rotate(90deg);
+}
+.smallcolor{
+    color: white; 
+    background-color: black;
+    font-size: 1.3em;
+}
+
+/**menu nav contact**/
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 85px;
+}
+.menuitem span{
+    font-size:0.7em;
+}
+.col-xs-4 {
+    width: 50%;
+    height: 80px;
+}
+/**body background position and styles contact**/
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+/**body background color**/
+BODY {
+    background-color: white;
+}
+/**the monkees home button contact**/
+a.name{
+    margin-top:10px;
     margin-left: 0;
     display: inline-block;
-    padding-top: 10%;
-    font-size: 40px;
+    font-family: 'Carter One', cursive;
+    font-size: 1.5em;
     font-weight: bold;
+    color: #337ab7;
+}
+/**validator css contact**/
+.validator{
+    display:none;
+}
+/**contact form contact **/
+.form-control{
+    display:inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.form-resizing{
+        width: 100%;
+}
+.contactform{
+   display:none;
+}
+/**submit contact button**/
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #525252;
+    color: #fafafa;
+    font-size:0.8em;
+    height: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.button{
+    width:100%;
+}
+/**follow & social media contact**/
+.social-media {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+
+
+
+/**media querries 767-262px**/
+@media(max-width:767px) and (min-width:262px){
+/**date about**/
+.date{
+    font-size: 1em;
+}
+/**buttons down and up index**/
+.last {
+    position: fixed;
+    top: 55%;
+    left: -7%;
+    transform: rotate(-90deg);
+}
+.first {
+    position: fixed;
+    top: 55%;
+    right: -9%;
+    transform: rotate(90deg);
+}
+.smallcolor{
+    color: white; 
+    background-color: black;
+    font-size: 1.3em;
+}
+/**body background position and styles  contact**/ 
+body{
+    background-position: left 0% top 240px;
+}
+/**the monkees home button  contact**/
+a.name{
+    font-family: 'Carter One', cursive;
+    font-size: 2.5em;
+    font-weight: 800;
     color: #337ab7;
     transform: rotate(-20deg);
 }
-.date{
-    font-size: 15px;
+/**validator css  contact**/
+.validator {
+    position: absolute;
+    bottom: -30%;
+    left: 75%;
 }
- /**   
-.description{
-    color: #0997d3;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px;
+/**contact form  contact**/
+.form {
+    margin-top: 30%;
 }
-**/
-
-.contactform{
-    text-align: left;
-    margin-right: 5px;
-    padding-right: 10px;
-    font-size: 15px;
+.form-resizing{
+        position: absolute;
+        top:450px;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 5px 12px;
+    font-size: 1em;
+    line-height: 1.0;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contactform {
+    background-color: white;
+    font-size: 0.7em;
     color: black;
-    font-weight: bold;
-    display:inline-block;
-    border:3px #0997d3 solid;
+    font-weight: lighter;
+    display: inline-block;
+    border: 1px black solid;
     position: relative;
-    width:40%;
+    left: 0%;
+    top: 122px;
 }
-.social-links{
+/**submit contact button  contact**/
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #525252;
+    color: #fafafa;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/**follow & social media  contact**/
+.follow {
+    font-size: 1em;
+    color: red;
+    animation: beat .5s infinite alternate;
+    transform-origin: right;
+    text-align: right;
+    font-weight: bolder;
+    position: absolute;
+    bottom: -30%;
+    right: 70%;
+}
+.social-links {
     position: fixed;
-    border: 3px solid #0997d3;
-    top:63%;
-    right:3%;
+    border: 1px solid #0997d3;
+    top: 90%;
+    right: 33%;
     color: #8C7853;
     background-color: transparent;
-    font-size: 30px;
-    padding-left: 5px;
+    font-size: 1.2em;
 }
-.follow{
-	font-size: 15px;
-	color: red;
-	animation: beat .5s infinite alternate;
-	transform-origin: right;
-	text-align: right;
-	font-weight: lighter;
-	position: fixed;
-	top: 75%;
-	right: 20%;
+.socialItem{
+    padding:4px;
+}
+ul li{
+  float: left;
 }
 }
 
-/**
-@keyframes beat{
-	to { transform: scale(1.4); }
-}
-**/
-@media(min-width: 769px)
+
+
+
+
+
+
+
+
+
+/**media querries  768-991px**/
+@media(max-width: 991px) and (min-width: 768px)
 {
-body {
-  background-position: left 0% top 120px;
+/**name meet, pictures**/
+.name {
+    margin-left: 0;
+    display: inline-block;
+    font-size: 140px;
+    font-weight: bold;
+    background-color: transparent;
 }
+/**date about**/
+.date{
+    font-size: 1.5em;
+}
+/**buttons down and up index**/
+.last {
+    position: fixed;
+    top: 55%;
+    left: 0%;
+    transform: rotate(-90deg);
+}
+.first {
+    position: fixed;
+    top: 55%;
+    right: 0%;
+    transform: rotate(90deg);
+}
+.smallcolor{
+    color: white; 
+    background-color: black;
+    font-size: 1.3em;
+}
+/**body background position and styles contact**/
+body {
+  background-position: left 50% top 120px;
+}
+/**the monkees home button contact**/
 .name{
     margin-left: 0;
     display: inline-block;
@@ -502,50 +619,227 @@ body {
     font-weight: bold;
     background-color: transparent;
 }
-.date{
-    font-size: 30px;
+/**validator css contact**/
+    .validator {
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
 }
-/**
-.description{
-    color: #0997d3;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 10px;
-}
-**/
-.contactform
-{
+/**contact form contact**/
+.contactform {
     margin-top: 40%;
     text-align: left;
     margin-right: 5px;
+    font-size: 2em;
 }
-.social-links
-{
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 1.8em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.col-xs-6 {
+    width: 65%;
+}
+/**submit contact button**/
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #525252;
+    color: #fafafa;
+}
+.btn {
+    display: inline-block;
+    padding: 5px 11px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button {
+    width: 60%;
+    height: 10%;
+    text-transform: uppercase;
+}
+/**follow & social media contact**/
+.social-links {
     position: fixed;
     border: 3px solid #0997d3;
-    top:40%;
-    right:3%;
+    top: 85%;
+    right: 3%;
     color: #8C7853;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 2.6em;
     padding-left: 5px;
 }
-.follow 
-{
-	font-size: 30px;
-	color: red;
-	animation: beat .5s infinite alternate;
-	transform-origin: right;
-	text-align: right;
-	font-weight: lighter;
-	position: fixed;
-	top: 50%;
-	right: 10%;
+.follow {
+    font-size: 2.0em;
+    color: red;
+    animation: beat 1s infinite alternate;
+    transform-origin: right;
+    text-align: right;
+    font-weight: bolder;
+    position: fixed;
+    top: 91%;
+    right: 4%;
+}
+ul li {
+    float: left;
 }
 }
-/**
-@keyframes beat{
-	to { transform: scale(1.4); }
-}
-**/
 
+
+
+
+
+
+/**media querries  992px+**/
+@media(min-width: 992px){
+/**buttons down and up index**/
+/**date about**/
+.date{
+    font-size: 2em;
+}
+.last {
+    position: fixed;
+    top: 55%;
+    left: 0%;
+    transform: rotate(-90deg);
+}
+.first {
+    position: fixed;
+    top: 55%;
+    right: 0%;
+    transform: rotate(90deg);
+}
+.smallcolor{
+    color: white; 
+    background-color: black;
+    font-size: 1.3em;
+}
+/**name meet, pictures**/
+.name {
+    margin-left: 0;
+    display: inline-block;
+    font-size: 140px;
+    font-weight: bold;
+    background-color: transparent;
+}
+/**css validator contact**/   
+.validator {
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+}
+/**contact form **/
+.col-md-4 {
+    width: 100%;
+    margin-top: 2%;
+    align-content: center;
+}
+.contactform
+{
+    margin-top: 53%;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 2em;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 2em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/**submit contact button**/
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #525252;
+    color: #fafafa;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn {
+    padding: 6px 12px;
+    font-size: 2.2em;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.button{
+    width: 50%;
+    height: 10%;
+    text-transform: uppercase;
+}
+/**follow & social media contact**/
+.follow {
+    font-size: 4.0em;
+    color: red;
+    animation: beat 1s infinite alternate;
+    transform-origin: right;
+    text-align: right;
+    font-weight: bolder;
+    position: fixed;
+    top: 91%;
+    right: 4%;
+}
+.social-links {
+    position: fixed;
+    border: 3px solid #0997d3;
+    top: 84%;
+    right: 3%;
+    color: #8C7853;
+    background-color: transparent;
+    font-size: 4.6em;
+    padding-left: 5px;
+}
+ul li {
+    float: left;
+}
+}
