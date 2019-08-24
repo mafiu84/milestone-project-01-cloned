@@ -31,8 +31,13 @@ h3{
     font-style: italic;
     font-size: 0.8em;
 }
-
-
+p1{
+    font-size: 0.7em;
+    margin-top: 0px;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+}
 .social-media{
   margin:0;
   padding:0;
@@ -260,10 +265,6 @@ ul {
     margin-top: auto;
 }
 
-.col-xs-12{
-    width: 100%;
-}
-
 
 /*-------------------------------------------------------------------contact*/
 
@@ -351,6 +352,24 @@ video{
     font-size: 0.6em;
     font-weight: normal;
 }
+/** resizing logos of artists **/
+.logo-dj{
+    height: 190px;
+    width: 80px;
+}
+.logo-md{
+    height: 190px;
+    width: 80px;
+}
+.logo-mn{
+    height: 190px;
+    width: 80px;
+}
+
+.logo-pt{
+    height: 190px;
+    width: 80px;
+}
 /**image and description sizes meet.html**/
 img{
     width: 50px;
@@ -394,6 +413,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     text-align: center;
+    line-height: 1;
 }
 /**body background color**/
 BODY {
@@ -464,6 +484,32 @@ ul {
 .date{
     font-size: 1em;
 }
+/** resizing logos of artists **/
+.logo-dj{
+    height: 265px;
+    width: 100px;
+}
+.logo-md{
+    height: 265px;
+    width: 100px;
+}
+.logo-mn{
+    height: 265px;
+    width: 100px;
+}
+
+.logo-pt{
+    height: 265px;
+    width: 100px;
+}
+/**font size of p1 text descriptions**/
+p1{
+    color: #0997d3;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em; 
+    margin-top: 5px;
+}
 /**buttons down and up index**/
 .last {
     position: fixed;
@@ -485,6 +531,7 @@ ul {
 /**body background position and styles  contact**/ 
 body{
     background-position: left 0% top 240px;
+    line-height: 1;
 }
 /**the monkees home button  contact**/
 a.name{
@@ -598,8 +645,34 @@ ul li{
 }
 /**image and description sizes meet.html**/
 img{
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
+}
+/** resizing logos of artists **/
+.logo-dj{
+    height: 250px;
+    width: 180px;
+}
+.logo-md{
+    height: 250px;
+    width: 180px;
+}
+.logo-mn{
+    height: 250px;
+    width: 180px;
+}
+
+.logo-pt{
+    height: 250px;
+    width: 180px;
+}
+/**font size of p1 text descriptions**/
+p1{
+    color: #0997d3;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em; 
+    margin-top: 5px;
 }
 /**date about**/
 .date{
@@ -740,8 +813,34 @@ ul li {
 /**buttons down and up index**/
 /**image and description sizes meet.html**/
 img{
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
+}
+/** resizing logos of artists **/
+.logo-dj{
+    height: 350px;
+    width: 250px;
+}
+.logo-md{
+    height: 350px;
+    width: 250px;
+}
+.logo-mn{
+    height: 350px;
+    width: 250px;
+}
+
+.logo-pt{
+    height: 350px;
+    width: 250px;
+}
+/**font size of p1 text descriptions**/
+p1{
+    color: #0997d3;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.3em; 
+    margin-top: 5px;
 }
 /**date about**/
 .date{
