@@ -375,6 +375,30 @@ img{
     width: 50px;
     height: 50px;
 }
+/**music.html play buttons txt styles **/
+.music {
+    text-align: center;
+    color: white;
+    background-size: cover;
+    font-weight: normal;
+    background-color: black;
+    box-shadow: 0 0 0 1px;
+    margin: 0px;
+}
+/**music.html Choose to listen styles**/
+.music-button {
+    color: black;
+    background-color: white;
+    padding-top: 20px;
+    font-size: 1.6em;
+    font-style: italic;
+}
+/**styles for list in music.html**/
+ul {
+    padding-left: 0;
+    line-height: 3;
+    font-size: 1em;
+}
 /**buttons down and up index**/
 .last {
     position: fixed;
@@ -469,10 +493,7 @@ button[type="submit"] {
     padding: 0;
     list-style: none;
 }
-ul {
-    list-style: none;
-    padding-left: 0;
-}
+
 
 
 
