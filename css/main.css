@@ -317,7 +317,7 @@ label {
 
 input,
 label {
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
 
@@ -473,7 +473,7 @@ a.name{
     text-align: center;
 }
 .form-resizing{
-        width: 100%;
+        width: 95%;
 }
 .contactform{
    display:none;
@@ -579,12 +579,12 @@ a.name{
 .form {
     margin-top: 30%;
 }
-.form-resizing{
-        position: absolute;
-        top:450px;
-        width: 100%;
-        padding-right: 0;
-        padding-left: 0;
+.form-resizing {
+    position: absolute;
+    top: 505px;
+    width: 85%;
+    padding-right: 0;
+    padding-left: 10%;
 }
 .form-control {
     display: block;
@@ -592,7 +592,6 @@ a.name{
     height: 30px;
     padding: 5px 12px;
     font-size: 1em;
-    line-height: 1.0;
     color: #555;
     background-color: #fff;
     background-image: none;
@@ -637,7 +636,7 @@ button[type="submit"] {
 .social-links {
     position: fixed;
     border: 1px solid #0997d3;
-    top: 90%;
+    top: 95%;
     right: 33%;
     color: #8C7853;
     background-color: transparent;
