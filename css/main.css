@@ -111,8 +111,8 @@ a:link {
 
 
 .music-button{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
     padding: 20px;
     font-weight: bold;
     font-size: 1.6em;
