@@ -333,8 +333,13 @@ button {
     cursor: pointer;
 }
 /*************************************************************video*/
-video{
+video {
     padding-top: 30px;
+}
+div {
+    background-color: rgba(0,0,0,0.9);
+    font-size:80%;
+    color: white;
 }
 /*************************************************************************************************about**/
 .date {
@@ -343,7 +348,7 @@ video{
     font-style: italic;
     z-index: 2;
     font-weight: bold;
-      text-align: center;
+    text-align: center;
 }
 /*********************************************************contact***********************************/
 /*-----------------------------------------------------------------media queries*/
