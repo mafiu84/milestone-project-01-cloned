@@ -350,11 +350,21 @@ div {
     font-weight: bold;
     text-align: center;
 }
-/*********************************************************contact***********************************/
+div.wiki-links{
+    background-color: rgba(0,0,0,0);
+    text-align: left;
+    line-height: 2em;
+    margin-left: 15px;
+    font-size: 0.5em;
+}
+a.wiki-links-anchor{
+    color: black;
+}
+
 /*-----------------------------------------------------------------media queries*/
 /**media querries  262px-**/
 @media(max-width:262px){
-    /**date about**/
+/**date about**/
 .date{
     font-size: 0.6em;
     font-weight: normal;
@@ -459,6 +469,7 @@ a.name{
     font-size: 1.5em;
     font-weight: bold;
     color: #337ab7;
+    background-color: rgba(0,0,0,0);
 }
 /**validator css contact**/
 .validator{
@@ -511,6 +522,17 @@ button[type="submit"] {
 /**date about**/
 .date{
     font-size: 1em;
+}
+/** wiki-links in about.html **/
+div.wiki-links{
+    background-color: rgba(0,0,0,0);
+    text-align: left;
+    line-height: 3em;
+    margin-left: 15px;
+    font-size: 1.2em;
+}
+a.wiki-links-anchor{
+    color: white;
 }
 /** resizing logos of artists **/
 .logo-dj{
@@ -662,6 +684,17 @@ ul li{
 /**media querries  768-991px**/
 @media(max-width: 991px) and (min-width: 768px)
 {
+/** wiki-links in about.html **/
+div.wiki-links{
+    background-color: rgba(0,0,0,0);
+    text-align: left;
+    line-height: 4em;
+    margin-left: 15px;
+    font-size: 1.6em;
+}
+a.wiki-links-anchor{
+    color: white;
+}
 /**name meet.html, pictures**/
 .name {
     margin-left: 0;
@@ -834,10 +867,19 @@ ul li {
 
 
 
-
-
 /**media querries  992px+**/
 @media(min-width: 992px){
+/** wiki-links in about.html **/
+div.wiki-links{
+    background-color: rgba(0,0,0,0);
+    text-align: left;
+    line-height: 5em;
+    margin-left: 15px;
+    font-size: 2em;
+}
+a.wiki-links-anchor{
+    color: white;
+}
 /**buttons down and up index**/
 /**image and description sizes meet.html**/
 img{
