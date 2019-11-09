@@ -6,6 +6,7 @@ html{
 BODY {
    font-family: "Source Sans Pro";
    background-color: black;
+   align-content: center;
 }
 
 
@@ -90,14 +91,19 @@ button[type="submit"] {
 } 
 
 
-/*********music********/
-
+/**link styling**/
 
 a:link {
     text-decoration: none;
 }
 
 
+a:hover {
+    text-shadow: rgb(0,0,99);
+}
+
+
+/*********music********/
 
 .music{
     margin:25px;
@@ -120,25 +126,22 @@ a:link {
 }
 
 
-
-
-
 ul {
   list-style: none
 }
 
 
-/*--------------------------------------------------------------------name*/
+/*-------------------------------------------------------------------------main site content, index.html, home site lorem ipsum*/
 
-.row {
-    min-height: 320px;
+.container-fluid {
     margin-top: 40px;
     position: static;
     align-content: center;
     margin-left:15px;
     margin-right:15px;
+    font-size: 1.6em;
+    line-height: 1.6em;
 }
-
 
 /*--------------------------------------------------------------------nav buttons on top*/
 .row1 {
@@ -146,10 +149,7 @@ ul {
     text-align: center;
 }
 
-.container-fluid {
-    padding-right: -25px;
-    padding-left: -25px;
-}
+
 .hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
@@ -231,42 +231,71 @@ ul {
 }
 
 
-/*-----------------------------------------------------------------------------meet*/
-.logo-dj{
-    
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    margin-top: auto;
+/**pictures-meet.html responsive gallery of group pics and single pics with 3 stages media queries*/
+
+div.gallery {
+    border: 1px solid #ccc;
 }
 
-
-.logo-md{
-  
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    margin-top: auto;
+div.gallery:hover {
+    border: 1px solid #777;
 }
 
-
-.logo-mn{
-   
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    margin-top: auto;
+div.gallery img {
+    width: 100%;
+    height:auto;
 }
 
-
-.logo-pt{
-    
-    height: 200px;
-    width: 200px;
-    background-repeat: no-repeat;
-    margin-top: auto;
+div.desc {
+    padding: 15px;
+    text-align: center;
+    line-height: 2em;
 }
 
+.desc{
+    font-size: 2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 6px 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  div.desc {
+    line-height: 1.6em;
+  }
+  .desc {
+    font-size: 1.6em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+    div.desc {
+    line-height: 1.3em;
+  }
+  .desc {
+    font-size: 1.1em;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*-------------------------------------------------------------------contact*/
 
@@ -337,7 +366,7 @@ video {
     padding-top: 30px;
 }
 div {
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0,0,0,0.5);
     font-size:80%;
     color: white;
 }
@@ -351,7 +380,7 @@ div {
     text-align: center;
 }
 div.wiki-links{
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.5);
     text-align: left;
     line-height: 2em;
     margin-left: 15px;
@@ -362,31 +391,49 @@ a.wiki-links-anchor{
 }
 
 /*-----------------------------------------------------------------media queries*/
-/**media querries  262px-**/
-@media(max-width:262px){
+/**media queries under 125px**/
+@media(max-width:125px){
+a.name{
+    width: 100vw;
+    margin-top:10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-family: 'Carter One', cursive;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #337ab7;
+    background-color: rgba(0,0,0,0.5);
+}
+.menuitem span {
+    font-size: 0.4em;
+}
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 80px;
+}
+.menuitem{
+    height: 80px;
+}
+.hvr-sweep-to-bottom::before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 80px;
+}
+.col-xs-4 {
+    width: 50%;
+    height: 80px;
+}
+}
+/**media querries 126-262px-**/
+@media(max-width:262px) and (min-width: 126px){
 /**date about**/
 .date{
     font-size: 0.6em;
     font-weight: normal;
 }
-/** resizing logos of artists **/
-.logo-dj{
-    height: 190px;
-    width: 80px;
-}
-.logo-md{
-    height: 190px;
-    width: 80px;
-}
-.logo-mn{
-    height: 190px;
-    width: 80px;
-}
 
-.logo-pt{
-    height: 190px;
-    width: 80px;
-}
 /**image and description sizes meet.html**/
 img{
     width: 50px;
@@ -462,20 +509,27 @@ BODY {
 }
 /**the monkees home button contact**/
 a.name{
+    width: 100vw;
     margin-top:10px;
     margin-left: 0;
+    margin-bottom: 10px;
     display: inline-block;
     font-family: 'Carter One', cursive;
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: bold;
     color: #337ab7;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.5);
 }
 /**validator css contact**/
-.validator{
-    display:none;
+.css-valid{
+    padding-left: 40%;
+    padding-right: 40%;
+    border: 0;
+    width: 90%;
+    height: 51px;
+    margin-top: 5%;
 }
-/**contact form contact **/
+/**contact form contact.html **/
 .form-control{
     display:inline-block;
     position: relative;
@@ -534,24 +588,7 @@ div.wiki-links{
 a.wiki-links-anchor{
     color: white;
 }
-/** resizing logos of artists **/
-.logo-dj{
-    height: 265px;
-    width: 100px;
-}
-.logo-md{
-    height: 265px;
-    width: 100px;
-}
-.logo-mn{
-    height: 265px;
-    width: 100px;
-}
 
-.logo-pt{
-    height: 265px;
-    width: 100px;
-}
 /**font size of p1 text descriptions**/
 p1{
     color: #0997d3;
@@ -585,12 +622,14 @@ body{
 }
 /**the monkees home button  contact**/
 a.name{
+    width: 100vw;
     font-family: 'Carter One', cursive;
-    font-size: 2.5em;
+    font-size: 5em;
     font-weight: 800;
     color: #337ab7;
     transform: rotate(-20deg);
 }
+
 /**validator css  contact**/
 .validator {
     position: absolute;
@@ -695,37 +734,22 @@ div.wiki-links{
 a.wiki-links-anchor{
     color: white;
 }
-/**name meet.html, pictures**/
-.name {
+/**name meet.html, pictures, the monkees home button contact**/
+a.name {
+    width: 100vw;
     margin-left: 0;
     display: inline-block;
-    font-size: 140px;
+    font-size: 10em;
     font-weight: bold;
     background-color: transparent;
+    font-family: 'Carter One', cursive;
 }
 /**image and description sizes meet.html**/
 img{
     width: 130px;
     height: 130px;
 }
-/** resizing logos of artists **/
-.logo-dj{
-    height: 250px;
-    width: 180px;
-}
-.logo-md{
-    height: 250px;
-    width: 180px;
-}
-.logo-mn{
-    height: 250px;
-    width: 180px;
-}
 
-.logo-pt{
-    height: 250px;
-    width: 180px;
-}
 /**font size of p1 text descriptions**/
 p1{
     color: #0997d3;
@@ -760,14 +784,6 @@ p1{
 /**body background position and styles contact**/
 body {
   background-position: left 50% top 120px;
-}
-/**the monkees home button contact**/
-.name{
-    margin-left: 0;
-    display: inline-block;
-    font-size: 140px;
-    font-weight: bold;
-    background-color: transparent;
 }
 /**validator css contact**/
     .validator {
@@ -886,24 +902,7 @@ img{
     width: 200px;
     height: 200px;
 }
-/** resizing logos of artists **/
-.logo-dj{
-    height: 350px;
-    width: 250px;
-}
-.logo-md{
-    height: 350px;
-    width: 250px;
-}
-.logo-mn{
-    height: 350px;
-    width: 250px;
-}
 
-.logo-pt{
-    height: 350px;
-    width: 250px;
-}
 /**font size of p1 text descriptions**/
 p1{
     color: #0997d3;
@@ -933,13 +932,15 @@ p1{
     background-color: black;
     font-size: 1.3em;
 }
-/**name meet, pictures**/
-.name {
+/**name meet.html, pictures**/
+a.name {
+    width: 100vw;
     margin-left: 0;
     display: inline-block;
     font-size: 140px;
     font-weight: bold;
     background-color: transparent;
+    font-family: 'Carter One', cursive;
 }
 /**css validator contact**/   
 .validator {

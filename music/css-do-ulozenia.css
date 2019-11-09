@@ -134,3 +134,72 @@
         
         
         <body background="images/monkees-music.jpg" aria-label="The Monkees on red background, sitting on bar hookers">
+        
+        
+        
+       /**old gallery with boys names date of birth and date of death HTML**/
+       <div class="row">
+             
+                <div class="logo-dj col-md-6 col-xs-12 col-xl-3"><img src="images/dj.jpg" alt="Davy Jones in a striped sweater" width="100" height="100"><p1>Davy Jones born 30/12/1945 Openshaw, Manchester, England - died 29/02/2012 Stuart, Florida, U.S.</p1></div>
+                <div class="logo-md col-md-6 col-xs-12 col-xl-3"><img src="images/md.jpg" alt="Micky Dolenz in black hat" width="100" height="100"><p1>Micki Dolenz born 08/03/1945 Los Angeles, California, U.S.</p1></div>
+                <div class="logo-mn col-md-6 col-xs-12 col-xl-3"><img src="images/mn.jpg" alt="Michael Nesmit on brown background" width="100" height="100"><p1>Michael Nesmit born 30/12/1942 Houston, Texas, U.S. </p1></div>
+                <div class="logo-pt col-md-6 col-xs-12 col-xl-3"><img src="images/pt.jpg" alt="Peter Tork smiling in blue shirt" width="100" height="100"><p1>Peter Tork born 13/02/1942 Washington, D.C., U.S. - died 21/02/2019 Mansfield, Connecticut, U.S.</p1></div>
+                
+            </div>
+            
+        /**old gallery with boys names date of birth and date of death CSS**/ 
+        /** resizing logos of artists **/
+.logo-dj{
+    height: 190px;
+    width: 80px;
+}
+.logo-md{
+    height: 190px;
+    width: 80px;
+}
+.logo-mn{
+    height: 190px;
+    width: 80px;
+}
+
+.logo-pt{
+    height: 190px;
+    width: 80px;
+}
+
+
+/*-----------------------------------------------------------------------------pictures-meet.html*/
+.logo-dj{
+    
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+
+
+.logo-md{
+  
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+
+
+.logo-mn{
+   
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
+
+
+.logo-pt{
+    
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin-top: auto;
+}
