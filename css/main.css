@@ -98,23 +98,30 @@ a:link {
 }
 
 
-a:hover {
-    text-shadow: rgb(0,0,99);
-}
-
-
 /*********music********/
 
 .music{
     margin:25px;
     text-align: center;
-    color: #337ab7;
+    color: inherit;
     background-size: cover;
     font-weight: bolder;
     background-color: #525252;
-    box-shadow: 0 0 0 5px;
+    box-shadow: 0 0 0 0.9px;
+    line-height: 10em;
 }
 
+.background-music{
+    background-image: url("images/monkees-music.jpg");
+    background-size: cover;
+    height:100vw;
+    width: 100vw;
+}
+
+.music-background-color{
+    background-color: rgba(0,0,0,0);
+    font-size: x-large;
+}
 
 .music-button{
     color: white;
@@ -457,12 +464,16 @@ img{
     font-size: 1.6em;
     font-style: italic;
 }
+
 /**styles for list in music.html**/
 ul {
     padding-left: 0;
     line-height: 3;
     font-size: 1em;
+    display: inline-block;
 }
+
+
 /**buttons down and up index**/
 .last {
     position: fixed;
@@ -709,8 +720,38 @@ button[type="submit"] {
 ul li{
   float: left;
 }
+/**music.html choose to listen music-button**/
+.music-button {
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 2px;
+    font-weight: 100;
+    font-size: 1em;
+    font-style: italic;
 }
-
+.music {
+    margin: 4px;
+    text-align: center;
+    color: inherit;
+    background-size: cover;
+    font-weight: 100;
+    background-color: #020202;
+    box-shadow: 0 0 0 0.7px;
+    line-height: 4em;
+}
+.music-background-color {
+    font-size: medium;
+}
+/**link to index.html in music.html**/
+.music-name {
+    width: 100vw;
+    margin-left: 0;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Carter One', cursive;
+}
+}
 
 
 
@@ -878,6 +919,29 @@ button {
 ul li {
     float: left;
 }
+/**link to index.html in music.html**/
+.music-name{
+    width: 100vw;
+    margin-left: 0;
+    display: inline-block;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Carter One', cursive;
+}
+.music-background-color{
+    background-color: rgba(0,0,0,0);
+    font-size: medium;
+}
+.music-button {
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 2px;
+    font-weight: lighter;
+    font-size: 1.1em;
+    font-style: italic;
+    margin-right: 80%;
+    margin-top: 20%;
+}
 }
 
 
@@ -1034,5 +1098,14 @@ button[type="submit"] {
 }
 ul li {
     float: left;
+}
+/**link to index.html in music.html**/
+.music-name{
+    width: 100vw;
+    margin-left: 0;
+    display: inline-block;
+    font-size: 140px;
+    font-weight: bold;
+    font-family: 'Carter One', cursive;
 }
 }

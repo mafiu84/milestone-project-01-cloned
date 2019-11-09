@@ -203,3 +203,12 @@
     background-repeat: no-repeat;
     margin-top: auto;
 }
+
+
+/**a:hower nie działające**/
+
+
+a:hover {
+    text-shadow: rgb(0,0,99);
+}
+
