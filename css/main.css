@@ -1,25 +1,31 @@
 html{
     display: inline-block;
+    height: 100vw;
 }
 
 
 BODY {
+   background-repeat: no-repeat;
+   text-align: center;
+   background-size: 100vw;
    font-family: "Source Sans Pro";
    background-color: black;
    align-content: center;
+   height: 100vw;
 }
 
 
 h1{
-    color: #0997d3;
     font-style: italic;
     font-weight: bold;
-    font-size: 1.5em; 
+    font-size: 1.2em;
+    margin-top: 10%;
+    color: #eee;
+    margin: 0;
 }
 
 
 h2{
-    background-color: rgba(0,0,0,0.5);
     line-height: 1.6em;
     color: #0997d3;
     font-style: italic;
@@ -49,7 +55,7 @@ p1{
 
 
 .sociallink{
-        color: #8C7853;
+    margin-left: 5px;
 }
 
 
@@ -84,10 +90,11 @@ p1{
 
 
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     background-color: #525252;
     color: #fafafa;
+    float: left;
 } 
 
 
@@ -97,9 +104,9 @@ a:link {
     text-decoration: none;
 }
 /**footer styles**/
-
-.navbar.navbar-default.navbar-fixed-bottom{
-    background-color: rgba(0,0,0,0.5);
+.navbar-default {
+    background-color: #000000;
+    border-color: #e7e7e7;
 }
 .container{
     width: 99%;
@@ -322,14 +329,14 @@ div.desc {
 
 
 .col-xs-6  {
-    margin-top:20%;   
+    margin-top:0;   
     align-content: center;
 
 }
 
 
 .col-md-4{
-     margin-top:12%;
+     margin-top:0;
      align-content: center;
 }
 
@@ -382,12 +389,14 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
+div.social-links{
+    font-weight: normal;
+}
 /*************************************************************video*/
 video {
     padding-top: 30px;
 }
 div {
-    background-color: rgba(0,0,0,0.5);
     font-size:80%;
     color: white;
     font-weight: 700;
@@ -402,7 +411,6 @@ div {
     text-align: center;
 }
 div.wiki-links{
-    background-color: rgba(0,0,0,0.5);
     text-align: left;
     line-height: 2em;
     margin-left: 0px;
@@ -416,7 +424,7 @@ a.wiki-links-anchor{
 /**media queries under 125px**/
 @media(max-width:125px){
 a.name{
-    width: 100vw;
+    width: 70vw;
     margin-top:0px;
     margin-left: 0;
     margin-bottom: 0px;
@@ -425,7 +433,6 @@ a.name{
     font-size: 1.1em;
     font-weight: bold;
     color: #337ab7;
-    background-color: rgba(0,0,0,0.5);
 }
 .menuitem span {
     font-size: 0.4em;
@@ -565,7 +572,6 @@ a.name{
     font-size: 2.5em;
     font-weight: bold;
     color: #337ab7;
-    background-color: rgba(0,0,0,0.5);
 }
 /**validator css contact**/
 .css-valid{
@@ -578,14 +584,23 @@ a.name{
 }
 /**contact form contact.html **/
 .form-control{
-    display:inline-block;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+    display: block;
+    width: 65%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 2em;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #1d1b1b;
+    border-radius: 8px;
+    float: left;
 }
 .form-resizing{
-        width: 95%;
+    width: 65%;
+    bottom: 20px;
+    margin-bottom: 0;
 }
 .contactform{
    display:none;
@@ -593,15 +608,8 @@ a.name{
 /**submit contact button**/
 }
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    background-color: #525252;
-    color: #fafafa;
-    font-size:0.8em;
-    height: 90%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    font-size: 0.8em;
+    width: 65%;
 }
 .button{
     width:100%;
@@ -688,11 +696,14 @@ a.name{
     margin-top: 30%;
 }
 .form-resizing {
-    position: absolute;
+   /** position: absolute;
     top: 505px;
     width: 85%;
     padding-right: 0;
-    padding-left: 10%;
+    padding-left: 10%;**/
+    width: 65%;
+    bottom: 20px;
+    margin-bottom: 0;
 }
 .form-control {
     display: block;
@@ -865,7 +876,7 @@ body {
   background-position: left 50% top 120px;
 }
 /**validator css contact**/
-    .validator {
+.validator {
     position: fixed;
     bottom: 1%;
     left: 50%;
@@ -894,6 +905,11 @@ body {
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-resizing{
+    width: 65%;
+    bottom: 20px;
+    margin-bottom: 0;
 }
 .col-xs-6 {
     width: 65%;
@@ -953,6 +969,9 @@ button {
     top: 88%;
     right: 4%;
     background-color: rgba(0,0,0,0.2);
+}
+.follow pull-right{
+    
 }
 ul li {
     float: left;
@@ -1042,7 +1061,6 @@ a.name {
     display: inline-block;
     font-size: 140px;
     font-weight: bold;
-    background-color: transparent;
     font-family: 'Carter One', cursive;
 }
 /**css validator contact**/   
@@ -1054,19 +1072,22 @@ a.name {
 /**contact form **/
 .col-md-4 {
     width: 100%;
-    margin-top: 2%;
     align-content: center;
 }
-.contactform
-{
-    margin-top: 53%;
-    text-align: center;
-    margin-right: 5px;
-    font-size: 2em;
+.contactform {
+    margin: 0;
+    background-color: rgba(0,0,0,0.4);
+    width: 65%;
+    float: left;
+}
+.form-resizing{
+    width: 100%;
+    top: 150px;
+    margin-bottom: 0;
 }
 .form-control {
     display: block;
-    width: 100%;
+    width: 65%;
     height: 34px;
     padding: 6px 12px;
     font-size: 2em;
@@ -1074,15 +1095,17 @@ a.name {
     color: #555;
     background-color: #fff;
     background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: 1px solid #1d1b1b;
+    border-radius: 8px;
+    float: left;
 }
 /**submit contact button**/
 button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 5px;
     background-color: #525252;
     color: #fafafa;
+    float: left;
+    font-size: 1.4em;
 }
 .center-block {
     display: block;
@@ -1120,20 +1143,16 @@ button[type="submit"] {
     transform-origin: right;
     text-align: right;
     font-weight: bolder;
-    position: fixed;
-    top: 91%;
-    right: 4%;
+    position: static;
+    top: 94%;
+    right: 19%;
     background-color: rgba(0,0,0,0.2);
 }
 .social-links {
-    position: fixed;
+    background-color: rgba(0,0,0,0.2);
+    font-size: 2em;
+    float: right;
     border: 3px solid #0997d3;
-    top: 70%;
-    right: 3%;
-    color: #8C7853;
-    background-color: transparent;
-    font-size: 4.6em;
-    padding-left: 5px;
 }
 ul li {
     float: left;
