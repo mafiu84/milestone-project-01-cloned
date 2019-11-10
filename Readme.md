@@ -1,11 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mateusz Poplewski">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <title>Monkees - 60 years of experience in rock music events</title>
+    
+
+
+
 Hi!
 
-My first front end website. It will be about band named Monkees.
+Probably best website about band the Monkees in the world:) All the news, shopping and place to meet other fans without further looking.
 
 UX
 
-This website is for present and future fans of band Monkees. They can find all the informations about band and current events.
-
+This website is for present and future fans of band Monkees. 
+They can find all the informations about band and current events and contact the band's manager to organize events involving artists.
 
 FEATURES
 

@@ -96,7 +96,10 @@ button[type="submit"] {
 a:link {
     text-decoration: none;
 }
-
+/**footer styles**/
+.navbar-default .navbar-text {
+    color: white;
+}
 
 /*********music********/
 
@@ -125,11 +128,13 @@ a:link {
 
 .music-button{
     color: white;
-    background-color: rgba(0,0,0,0.5);
-    padding: 20px;
-    font-weight: bold;
-    font-size: 1.6em;
-    font-style: italic;
+    background-color: rgba(0,0,0,0.7);
+    padding: 0;
+    font-size: 0.8em;
+    margin-right: 80%;
+    margin-top: 10%;
+    font-family: 'Carter One', cursive;
+    font-weight: 100;
 }
 
 
@@ -432,6 +437,23 @@ a.name{
     width: 50%;
     height: 80px;
 }
+/**music.html links**/
+.music {
+    text-align: center;
+    color: inherit;
+    background-size: cover;
+    background-color: #525252;
+    box-shadow: 0 0 0 0.9px;
+    line-height: 3em;
+    font-weight: lighter;
+    font-size: 10px;
+}
+.li{
+    line-height:2em;
+}
+.music-background-color {
+    font-size: medium;
+}
 }
 /**media querries 126-262px-**/
 @media(max-width:262px) and (min-width: 126px){
@@ -460,16 +482,20 @@ img{
 .music-button {
     color: black;
     background-color: white;
-    padding-top: 20px;
-    font-size: 1.6em;
+    padding-top: 5px;
+    font-size: 0.9em;
     font-style: italic;
+}
+/**---music.html line heights responsive-**/
+.music {
+    line-height: 5em;
 }
 
 /**styles for list in music.html**/
 ul {
     padding-left: 0;
-    line-height: 3;
-    font-size: 1em;
+    line-height: 2;
+    font-size: 0.5em;
     display: inline-block;
 }
 
@@ -724,10 +750,12 @@ ul li{
 .music-button {
     color: white;
     background-color: rgba(0,0,0,0.7);
-    padding: 2px;
+    padding: 0;
     font-weight: 100;
     font-size: 1em;
-    font-style: italic;
+    margin-right: 80%;
+    margin-top: 10%;
+    font-family: 'Carter One', cursive;
 }
 .music {
     margin: 4px;
@@ -780,7 +808,7 @@ a.name {
     width: 100vw;
     margin-left: 0;
     display: inline-block;
-    font-size: 10em;
+    font-size: 6em;
     font-weight: bold;
     background-color: transparent;
     font-family: 'Carter One', cursive;
@@ -935,12 +963,12 @@ ul li {
 .music-button {
     color: white;
     background-color: rgba(0,0,0,0.7);
-    padding: 2px;
-    font-weight: lighter;
-    font-size: 1.1em;
-    font-style: italic;
+    padding: 0;
+    font-weight: 100;
+    font-size: 1em;
     margin-right: 80%;
-    margin-top: 20%;
+    margin-top: 10%;
+    font-family: 'Carter One', cursive;
 }
 }
 
