@@ -374,7 +374,7 @@ div.desc {
 
 
 .col-md-4{
-     margin-top:0;
+     margin-top:13%;
      align-content: center;
 }
 
@@ -752,7 +752,30 @@ button[type="submit"] {
 
 
 
+/**social links in contact.html responsive**/
+@media(max-width:640px){
+.social-links {
+    position: fixed;
+    border: 1px solid #0997d3;
+    top: 52%;
+    right: 3%;
+    color: #8C7853;
+    background-color: transparent;
+    font-size: 0.6em;
+}
+}
 
+@media(min-width:641px){
+.social-links {
+    position: fixed;
+    border: 1px solid #0997d3;
+    top: 30%;
+    right: 3%;
+    color: #8C7853;
+    background-color: transparent;
+    font-size: 0.8em;
+}
+}
 /**media querries 767-262px**/
 @media(max-width:767px) and (min-width:262px){
 
@@ -893,14 +916,12 @@ a.name{
 }
 .contactform {
     background-color: rgba(0,0,0,0.4);
-    font-size: 0.9em;
+    font-size: 1.2em;
     color: white;
     font-weight: lighter;
     display: inline-block;
     border: 1px black solid;
-    position: relative;
-    top: 135px;
-    left: 0%;
+    margin-top: 40%;
 }
 /**submit contact button  contact**/
 button[type="submit"] {
@@ -915,26 +936,6 @@ button[type="submit"] {
     margin-left: auto;
 }
 /**follow & social media  contact**/
-.follow {
-    font-size: 1em;
-    color: red;
-    animation: beat .5s infinite alternate;
-    transform-origin: right;
-    text-align: right;
-    font-weight: bolder;
-    position: absolute;
-    bottom: -30%;
-    right: 70%;
-}
-.social-links {
-    position: fixed;
-    border: 1px solid #0997d3;
-    top: 95%;
-    right: 33%;
-    color: #8C7853;
-    background-color: transparent;
-    font-size: 1.2em;
-}
 .socialItem{
     padding:4px;
 }
@@ -1060,10 +1061,11 @@ body {
 }
 /**contact form contact**/
 .contactform {
-    margin-top: 40%;
+    margin-top: 30%;
     text-align: left;
     margin-right: 5px;
-    font-size: 2em;
+    font-size: 1.2em;
+    float: left;
 }
 .form-control {
     display: block;
@@ -1128,28 +1130,14 @@ button {
 .social-links {
     position: fixed;
     border: 3px solid #0997d3;
-    top: 93%;
+    top: 30%;
     right: 3%;
     color: #8C7853;
     background-color: transparent;
-    font-size: 2.6em;
+    font-size: 0.8em;
     padding-left: 5px;
 }
-.follow {
-    font-size: 2.0em;
-    color: red;
-    animation: beat 1s infinite alternate;
-    transform-origin: right;
-    text-align: right;
-    font-weight: bolder;
-    position: fixed;
-    top: 88%;
-    right: 4%;
-    background-color: rgba(0,0,0,0.2);
-}
-.follow pull-right{
-    
-}
+
 ul li {
     float: left;
 }
@@ -1254,14 +1242,12 @@ a.name {
     align-content: center;
 }
 .contactform {
-    margin: 0;
     background-color: rgba(0,0,0,0.4);
     width: 65%;
     float: left;
 }
 .form-resizing{
     width: 100%;
-    top: 150px;
     margin-bottom: 0;
 }
 .form-control {
@@ -1314,22 +1300,10 @@ button[type="submit"] {
     height: 10%;
     text-transform: uppercase;
 }
-/**follow & social media contact**/
-.follow {
-    font-size: 4.0em;
-    color: red;
-    animation: beat 1s infinite alternate;
-    transform-origin: right;
-    text-align: right;
-    font-weight: bolder;
-    position: static;
-    top: 94%;
-    right: 19%;
-    background-color: rgba(0,0,0,0.2);
-}
+
 .social-links {
     background-color: rgba(0,0,0,0.2);
-    font-size: 2em;
+    font-size: 1.5em;
     float: right;
     border: 3px solid #0997d3;
 }
