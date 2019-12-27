@@ -105,21 +105,29 @@ a:link {
     size: inherit;
 }
 .logo-link{
-    margin-right: 90%;
-    margin-top: 10%;
     width: 70px;
     height: 70px;
+    text-align: center;
 }
 .link-logo{
-    margin-right: 90%;
     margin-top: 10%;
     font-stretch: condensed;
+    text-align: center;
+}
+a.link-logo.menuitem{
+   font-size: 1.8em;
 }
 /**footer styles**/
 .navbar-default {
     background-color: #000000;
     border-color: #e7e7e7;
 }
+
+.list-inline>li {
+    display: block;
+    text-align: center;
+}
+
 .container{
     width: 99%;
     padding-right: 0;
@@ -185,8 +193,7 @@ ul {
 /*--------------------------------------------------------------------nav buttons on top*/
 .row1 {
     align-content: center;
-    text-align: center;
-    height: 20px;
+    text-align: left;
 }
 
 
@@ -195,6 +202,9 @@ ul {
     height: 20px;
 }
 
+.list-inline.clearfix{
+    display: block;
+}
 
 #nav {
     margin: 0;
@@ -202,14 +212,15 @@ ul {
 
 
 #nav li {
-    padding: 0;
+    padding: 5px;
 }
 
 
 .menuitem {
-    height: 20px;
+    height: 80px;
     text-align: center;
     padding: 0;
+    width: 16%;
 }
 
 
@@ -217,12 +228,11 @@ ul {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-    height: 20px;
 }
 
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 12px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -395,8 +405,7 @@ label {
 button {
     border: none;
     background-color: #0997d3;
-    width: 40%;
-    height: 6%;
+    width: 140px;
     color: #fff;
     text-transform: uppercase;
     cursor: pointer;
@@ -435,6 +444,53 @@ a.wiki-links-anchor{
 /*-----------------------------------------------------------------media queries*/
 /**media queries under 125px**/
 @media(max-width:125px){
+    
+/**nav buttons**/
+#nav li{
+    display: none;
+}
+/** drop down menu**/
+.dropbtn {
+  background-color: #525252;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9534f;
+}
+}
 a.name{
     width: 70vw;
     margin-top:0px;
@@ -483,9 +539,56 @@ a.name{
 .music-background-color {
     font-size: medium;
 }
-}
+
 /**media querries 126-262px-**/
 @media(max-width:262px) and (min-width: 126px){
+
+/**nav buttons**/
+#nav li{
+    display: none;
+}
+/** drop down menu**/
+.dropbtn {
+  background-color: #525252;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9534f;
+}
+}
 /**date about**/
 .date{
     font-size: 0.6em;
@@ -524,7 +627,7 @@ img{
 ul {
     padding-left: 0;
     line-height: 2;
-    font-size: 0.5em;
+    font-size: 1.5em;
     display: inline-block;
 }
 
@@ -553,7 +656,6 @@ ul {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-    height: 85px;
 }
 .menuitem span{
     font-size:0.7em;
@@ -618,7 +720,6 @@ a.name{
    display:none;
 }
 /**submit contact button**/
-}
 button[type="submit"] {
     font-size: 0.8em;
     width: 65%;
@@ -636,10 +737,55 @@ button[type="submit"] {
 
 
 
-
-
 /**media querries 767-262px**/
 @media(max-width:767px) and (min-width:262px){
+
+/**nav buttons**/
+#nav li{
+    display: none;
+}
+/** drop down menu**/
+.dropbtn {
+  background-color: #525252;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #d9534f;
+}
+}
 /**date about**/
 .date{
     font-size: 1em;
@@ -684,7 +830,7 @@ p1{
 }
 /**body background position and styles  contact**/ 
 body{
-    background-position: left 0% top 240px;
+    background-position: left 0% top 100px;
     line-height: 1;
 }
 /**the monkees home button  contact**/
@@ -812,7 +958,7 @@ ul li{
     font-weight: normal;
     font-family: 'Carter One', cursive;
 }
-}
+
 
 
 
@@ -825,6 +971,11 @@ ul li{
 /**media querries  768-991px**/
 @media(max-width: 991px) and (min-width: 768px)
 {
+/** drop down menu disabled**/
+div.dropdown{
+    display: none;
+}
+
 /** wiki-links in about.html **/
 div.wiki-links{
     background-color: rgba(0,0,0,0);
@@ -1018,6 +1169,10 @@ ul li {
 
 /**media querries  992px+**/
 @media(min-width: 992px){
+    /** drop down menu disabled**/
+div.dropdown{
+    display: none;
+}
 /** wiki-links in about.html **/
 div.wiki-links{
     background-color: rgba(0,0,0,0);
