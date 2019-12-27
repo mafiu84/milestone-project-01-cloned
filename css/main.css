@@ -102,6 +102,18 @@ button[type="submit"] {
 
 a:link {
     text-decoration: none;
+    size: inherit;
+}
+.logo-link{
+    margin-right: 90%;
+    margin-top: 10%;
+    width: 70px;
+    height: 70px;
+}
+.link-logo{
+    margin-right: 90%;
+    margin-top: 10%;
+    font-stretch: condensed;
 }
 /**footer styles**/
 .navbar-default {
@@ -114,7 +126,6 @@ a:link {
     padding-left: 0;
     margin-right: 1px;
     margin-left: 1px;
-
 }
 
 /*********music********/
@@ -175,12 +186,13 @@ ul {
 .row1 {
     align-content: center;
     text-align: center;
+    height: 20px;
 }
 
 
 .hvr-sweep-to-bottom::before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 20px;
 }
 
 
@@ -195,7 +207,7 @@ ul {
 
 
 .menuitem {
-    height: 120px;
+    height: 20px;
     text-align: center;
     padding: 0;
 }
@@ -205,7 +217,7 @@ ul {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
-    height: 120px;
+    height: 20px;
 }
 
 
