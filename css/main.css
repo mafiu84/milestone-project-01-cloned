@@ -104,8 +104,8 @@ a:link {
     text-decoration: none;
 }
 .logo-link{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     text-align: center;
 }
 .link-logo{
@@ -225,14 +225,14 @@ ul {
     margin: 0;
 }
 
-
+/**
 #nav li {
     padding: 5px;
 }
-
+**/
 
 .menuitem {
-    height: 80px;
+    height: 100%;
     text-align: center;
     padding: 0;
     width: 16%;
