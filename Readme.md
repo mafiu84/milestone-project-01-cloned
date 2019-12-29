@@ -1,70 +1,86 @@
-<!DOCTYPE html>
-<html lang="en-GB">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Mateusz Poplewski">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Carter+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
-    <title>Monkees - 60 years of experience in rock music events</title>
-    
-
-
-
-#The Monkees website
+# The Monkees website
 
 Stream One Project: User-Centric Frontend Development - Code Institute
 
-Probably best website about band the Monkees in the world;) History of band, some pictures, music and videoclip as well as contact form to message group regarding events. 
+Website about band The Monkees. History of band, some pictures, music and videoclip as well as contact form to message group regarding events. 
 
-##UX
+## DEMO
 
-This website is for present and future fans of band Monkees. 
-They can find all the informations about band and current events and contact the band's manager to organize events involving artists.
+Live demo you will found [here](https://mafiu84.github.io/)
 
-##FEATURES
+## UX
 
-Home-description of band
-About-story of band
-Meet us-band on pics
-Events-upcoming events/gigs
-Music and Videoclips-videoclips
-Contact-contact can mean only one thing, contact with manager
+### User stories
 
-##EXISTING FEATURES
+As a fan of group i want to see news about group and listen to their music
 
-Home-here fans will find basic info and see upcoming events and gigs
-About-here they can read story of best rock band ever with impressive 50 years of experience, list of biggest gigs
-Meet us-short presentation of the band members with pictures
-Music and Videoclips-at this section they can hear sample of your best singles, videoclips and any new material available
-Contact-form to email and links to Facebook, Twitter and YouTube pages to contact with manager of band to discuss possible events like weddings and Christmas parties
+As an event organizer I want to have possibility to listen to music of group and contact if I'm interested in cooperation  
 
-##FEATURES LEFT TO IMPLEMENT
+### Strategy
 
-Press kit-as soon as group will go on social media and become wildely famous i'll implement another feature to show fans your fame
+My goal was to build mobile friendly, responsive website with all the information easily accessible from navbar on large screens and drop down menu on mobile devices.
 
-##TECHNOLOGIES USED
+### Scope
 
-HTML - Hypertext Markup Language - used for building basic structure of website, allows to view it on modern web brosers - https://whatwg.org/
+For fans, I wanted to provide them with all the news about group, and media to look at.
 
-CSS - Cascading Style Sheets - adding styles to website like fonts, colours, layout etc. - https://www.w3.org/Style/CSS/
+For people interested in cooperation, I wanted to provide possibility to contact group.
 
-Bootstrap - library that I've used to build responsive grid layout and as base for some smaller elements - https://getbootstrap.com/
+### Structure
 
-Font Awesome - I've used this library to get icons and social websites logos - https://fontawesome.com/
+In contact page I wanted to provide not only contact form but links to all social media accounts to maximize the fan base. YouTube subscription link is provided in footer on every page  and footer stays collapsed regardless to screen size for easy acces.
 
-Additional fonts from Google Fonts library (Carter One, Source Sans Pro) - https://fonts.google.com/
+### Skeleton
 
-##TESTING
+
+
+### Surface
+
+Background pictures in landing page, music, video and contact page were edited in fotor app that they would not distract attention from the content.
+
+## TECHNOLOGIES
+
+HTML - Hypertext Markup Language - used for building basic structure of website, allows to view it on modern web brosers [official description](https://whatwg.org/)
+
+CSS - Cascading Style Sheets - adding styles to website like fonts, colours, layout etc. [official description](https://www.w3.org/Style/CSS/)
+
+Bootstrap 3.3.7 - library that I've used to build responsive grid layout and as base for some smaller elements available [here](https://getbootstrap.com/)
+
+Font Awesome - I've used this library to get icons and social websites logos available [here](https://fontawesome.com/)
+
+Additional fonts from Google Fonts library (Carter One, Source Sans Pro) available [here](https://fonts.google.com/)
+
+Fotor - photo editing app, to edit background pictures, downloaded from [here](https://www.fotor.com/windows/index.html)
+
+## FEATURES
+
+YouTube link is implemented on every site in container on bottom and its always visible as it scrolls with website. On contact page there are all link to social media of the band. Sites are responsive and on mobile screens there is drop down menu instead of navbar to get better clarity of content.
+
+### Features left to implement
+
+In future I would like to add online shop to sell items related to the group.
+
+## TESTING
 
 HTML tested in official validator
 CSS tested in official validator
 Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices. 
 
+## DEPLOYMENT
+
+## CREDITS
+
+### Content
+
+As content i used Lorem ipsum text to complete the contents if necessary. 
+
+### Media
+
+All photos re from stock libraries and edited in Fotor app to keep the color theme of the page. Theme is dark bacause it reduces the luminance emitted by device screens, while still meeting minimum color contrast ratios. It helps improve visual ergonomics by reducing eye strain, adjusting brightness to current lighting conditions, and facilitating screen use in dark environments – all while conserving battery power.
+
+### Acknowledgements
+
+Band logo working as link to landing page was inspired by official website of group [official site](https://www.monkees.com/).
 
 
 
