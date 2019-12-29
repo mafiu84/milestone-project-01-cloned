@@ -10,7 +10,7 @@ Website about band The Monkees. History of band, some pictures, music and videoc
 
 ## UX
 
-#### User stories
+### User stories
 
 As a fan of group i want to see news about group and listen to their music
 
@@ -20,21 +20,21 @@ As an event organizer I want to have possibility to listen to music of group and
 
 My goal was to build mobile friendly, responsive website with all the information easily accessible from navbar on large screens and drop down menu on mobile devices.
 
-##### Scope
+### Scope
 
 For fans, I wanted to provide them with all the news about group, and media to look at.
 
 For people interested in cooperation, I wanted to provide possibility to contact group.
 
-##### Structure
+### Structure
 
 In contact page I wanted to provide not only contact form but links to all social media accounts to maximize the fan base. YouTube subscription link is provided in footer on every page  and footer stays collapsed regardless to screen size for easy acces.
 
-##### Skeleton
+### Skeleton
 
 
 
-##### Surface
+### Surface
 
 Background pictures in landing page, music, video and contact page were edited in fotor app that they would not distract attention from the content.
 
@@ -56,7 +56,7 @@ Fotor - photo editing app, to edit background pictures, downloaded from https://
 
 YouTube link is implemented on every site in container on bottom and its always visible as it scrolls with website. On contact page there are all link to social media of the band. Sites are responsive and on mobile screens there is drop down menu instead of navbar to get better clarity of content.
 
-##### Features left to implement
+### Features left to implement
 
 In future I would like to add online shop to sell items related to the group.
 
@@ -70,15 +70,15 @@ Also I've tested website in chrome devtools for responsiveness and on multiple b
 
 ## CREDITS
 
-##### Content
+### Content
 
 As content i used Lorem ipsum text to complete the contents if necessary. 
 
-##### Media
+### Media
 
 All photos re from stock libraries and edited in Fotor app to keep the color theme of the page. Theme is dark bacause it reduces the luminance emitted by device screens, while still meeting minimum color contrast ratios. It helps improve visual ergonomics by reducing eye strain, adjusting brightness to current lighting conditions, and facilitating screen use in dark environments – all while conserving battery power.
 
-##### Acknowledgements
+### Acknowledgements
 
 Band logo working as link to landing page was inspired by official website of group https://www.monkees.com/.
 
