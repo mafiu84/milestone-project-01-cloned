@@ -30,13 +30,9 @@ For people interested in cooperation, I wanted to provide possibility to contact
 
 In contact page I wanted to provide not only contact form but links to all social media accounts to maximize the fan base. YouTube subscription link is provided in footer on every page  and footer stays collapsed regardless to screen size for easy acces.
 
-### Skeleton
-
-
-
 ### Surface
 
-Background pictures in landing page, music, video and contact page were edited in fotor app that they would not distract attention from the content.
+Background pictures in landing page, music, video and contact page were edited in fotor app that they would not distract attention from the content. Theme is dark to conserve power on battery powered devices.
 
 ## TECHNOLOGIES
 
@@ -67,6 +63,10 @@ CSS tested in official validator
 Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices. 
 
 ## DEPLOYMENT
+
+This site is hosted using GitHub pages, deployed from master branch. 
+The live site updates automatically each time there is a new push to the repository. 
+You can <code>git clone</code> the code to run it locally on your machine.
 
 ## CREDITS
 
