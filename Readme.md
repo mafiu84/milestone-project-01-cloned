@@ -58,9 +58,11 @@ In future I would like to add online shop to sell items related to the group.
 
 ## TESTING
 
-HTML tested in official validator
-CSS tested in official validator
-Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices. 
+HTML tested in official validator\
+CSS tested in official validator\
+Tested for performance 95%, accessibility 96%, best practices 93% and SEO 91% in chrome dev tools-Lighthouse.\
+Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices.\
+
 
 ## DEPLOYMENT
 
