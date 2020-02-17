@@ -40,6 +40,7 @@ h3{
     font-style: italic;
     font-size: 0.8em;
 }
+
 p1{
     font-size: 0.7em;
     margin-top: 0px;
@@ -830,6 +831,7 @@ div.wiki-links{
     line-height: 3em;
     margin-left: 0px;
     font-size: 1.2em;
+    padding-left: 10px;
 }
 a.wiki-links-anchor{
     color: white;
