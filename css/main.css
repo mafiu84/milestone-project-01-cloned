@@ -823,6 +823,7 @@ button[type="submit"] {
 /**date about**/
 .date{
     font-size: 1em;
+    float: none;
 }
 /** wiki-links in about.html **/
 div.wiki-links{
