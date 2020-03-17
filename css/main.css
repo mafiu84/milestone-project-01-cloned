@@ -275,6 +275,11 @@ ul {
     background-color: #6D7C86;
 }
 
+/*dropdown menu small devices on the top*/
+
+.dropdown{
+    opacity: 0.8;
+}
 
 /**pictures-meet.html responsive gallery of group pics and single pics with 3 stages media queries*/
 
@@ -455,8 +460,12 @@ a.wiki-links-anchor{
 }
 
 .dropdown {
-  position: relative;
-  text-align: left;
+    position: sticky;
+    top: 0;
+    right: 0;
+    text-align: right;
+    width: 140px;
+    float: right;
 }
 
 .dropdown-content {
@@ -553,8 +562,12 @@ a.name{
 }
 
 .dropdown {
-  position: relative;
-  text-align: left;
+    position: sticky;
+    top: 0;
+    right: 0;
+    text-align: right;
+    width: 140px;
+    float: right;
 }
 
 .dropdown-content {
@@ -777,6 +790,8 @@ button[type="submit"] {
     top: 0;
     right: 0;
     text-align: right;
+    width: 140px;
+    float: right;
 }
 
 .dropdown-content {
