@@ -121,6 +121,7 @@ a.link-logo.menuitem{
 .navbar-default {
     background-color: #000000;
     border-color: #e7e7e7;
+    opacity: 0.8;
 }
 
 .list-inline>li {
@@ -212,6 +213,7 @@ ul {
     top: 0;
     align-content: center;
     text-align: left;
+    opacity: 0.8;
 }
 
 
@@ -265,32 +267,12 @@ ul {
 
 
 .ui-menu-color-home{
-    background-color: #e67e22;
+    background-color: #000;
 }
 
 
-.ui-menu-color-about{
-    background-color: #9b59b6;
-}
-
-
-.ui-menu-color-pictures{
-    background-color: #3498db;
-}
-
-
-.ui-menu-color-music{
-    background-color: #558B2F;
-}
-
-
-.ui-menu-color-video{
-    background-color: #FFEA00;
-}
-
-
-.ui-menu-color-contact{
-    background-color: #525252;
+.ui-menu-color{
+    background-color: #6D7C86;
 }
 
 
