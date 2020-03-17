@@ -287,7 +287,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
+    width: 70%;
     height:auto;
 }
 
@@ -773,8 +773,10 @@ button[type="submit"] {
 }
 
 .dropdown {
-  position: relative;
-  text-align: left;
+    position: sticky;
+    top: 0;
+    right: 0;
+    text-align: right;
 }
 
 .dropdown-content {
