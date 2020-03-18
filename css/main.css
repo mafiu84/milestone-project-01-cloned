@@ -235,7 +235,7 @@ ul {
     height: 100%;
     text-align: center;
     padding: 0;
-    width: 16%;
+    width: 16.666%;
 }
 
 
@@ -267,7 +267,7 @@ ul {
 
 
 .ui-menu-color-home{
-    background-color: #000;
+    background-color: #6D7C86;
 }
 
 
@@ -451,7 +451,7 @@ a.wiki-links-anchor{
 }
 /** drop down menu**/
 .dropbtn {
-  background-color: #525252;
+  background-color: #6D7C86;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -553,7 +553,7 @@ a.name{
 }
 /** drop down menu**/
 .dropbtn {
-  background-color: #525252;
+  background-color: #6D7C86;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -777,7 +777,7 @@ button[type="submit"] {
 }
 /** drop down menu**/
 .dropbtn {
-  background-color: #525252;
+  background-color: #6D7C86;
   color: white;
   padding: 16px;
   font-size: 16px;
