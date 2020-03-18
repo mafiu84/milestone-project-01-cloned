@@ -137,6 +137,9 @@ a.link-logo.menuitem{
     margin-left: 1px;
 }
 
+.navbar-text{
+    font-size: 1.4em;
+}
 /*********music********/
 
 .music{
