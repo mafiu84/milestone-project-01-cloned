@@ -88,9 +88,20 @@ Also I've tested website in chrome devtools for responsiveness and on multiple b
 
 ## DEPLOYMENT
 
-This site is hosted using GitHub pages, deployed from master branch. 
+This site is hosted using GitHub pages.  
 The live site updates automatically each time there is a new push to the repository. 
-You can <code>git clone</code> the code to run it locally on your machine.
+
+First you need to created github account. Project is deployed from master branch.
+
+Project is hosted at:
+
+<https://mafiu84.github.io/milestone-project-01-cloned/>
+
+You can clone the code to run it locally on your machine from my github:
+
+https://github.com/mafiu84/milestone-project-01-cloned
+
+To clone it simply type in terminal "<code>git clone</code> https://github.com/mafiu84/milestone-project-01-cloned"
 
 ## CREDITS
 
