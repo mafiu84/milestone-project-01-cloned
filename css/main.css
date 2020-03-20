@@ -5,13 +5,13 @@ html{
 
 
 body {
-   background-repeat: no-repeat;
-   text-align: center;
-   background-size: 100vw;
-   font-family: "Source Sans Pro";
-   background-color: black;
-   align-content: center;
-   height: 100vw;
+    font-family: "Source Sans Pro";
+    align-content: center;
+    height: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: black;
 }
 
 
@@ -683,10 +683,7 @@ body {
     text-align: center;
     line-height: 1;
 }
-/**body background color**/
-BODY {
-    background-color: white;
-}
+
 /**the monkees home button contact**/
 a.name{
     width: 100vw;
