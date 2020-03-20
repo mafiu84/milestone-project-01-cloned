@@ -20,7 +20,23 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-01-c
 
 * Fan who wants to find links to social media accounts of group to connect with other fans.
 
+### Approach
 
+* Main - Landing page with picture of band with few words about them.
+
+* About - More story of group with links to wikipedia to read articles about group and all artists separately as well.
+
+* Pictures - Gallery with 4 pictures of band toghether and another 4 with artists separately.
+
+* Music - Site with 4 of their most popular songs to listen.
+
+* Video - Site where you can watch and/or download videoclip.
+
+* Contact - Contact form to group manager and social media accounts links.
+
+On sticky footer on every page there is link to Youtube subscription account of band. 
+Navigation bar on the top of each page is sticky as well for quicker navigation. 
+For mobile view instead of navbar there is drop down menu sticky on top right side.
 
 ### Strategy
 
