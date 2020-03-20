@@ -181,10 +181,10 @@ ul {
 }
 /** video-button**/
 .video-button{
-    color: white;
+    color: #d9ffff;
     background-color: rgba(0,0,0,0.7);
     padding: 0;
-    font-size: 1em;
+    font-size: 1.7em;
     margin-right: 80%;
     margin-top: 30%;
     margin-bottom: 0%;
@@ -416,9 +416,9 @@ video {
     padding-top: 0px;
 }
 div {
-    font-size:80%;
-    color: white;
-    font-weight: 700;
+    font-size: 1.1em;
+    color: #d9ffff;
+    font-weight: 500;
 }
 /*************************************************************************************************about**/
 .date {
@@ -619,7 +619,7 @@ img{
 }
 /**music.html Choose to listen styles**/
 .music-button {
-    color: black;
+    color: #d9ffff;
     background-color: white;
     padding-top: 5px;
     font-size: 0.9em;
@@ -942,22 +942,21 @@ ul li{
 }
 /**music.html choose to listen music-button**/
 .music-button {
-    color: white;
     background-color: rgba(0,0,0,0.7);
     padding: 0;
     font-weight: 100;
-    font-size: 1em;
+    font-size: 1.7em;
     margin-right: 80%;
 }
 .music {
     text-align: center;
-    color: inherit;
+    color: #d9ffff;
     background-size: cover;
     font-weight: 100;
     background-color: #020202;
     box-shadow: 0 0 0 0.7px;
     line-height: 4em;
-    font-size: 0.6em;
+    font-size: 0.9em;
 }
 .music-background-color {
     font-size: medium;
