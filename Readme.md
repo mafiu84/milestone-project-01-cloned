@@ -12,9 +12,15 @@ Live demo you will found [here](https://mafiu84.github.io/milestone-project-01-c
 
 ### User stories
 
-As a fan of group i want to see news about group and listen to their music
+* Fan of group who wants to see news about group and listen to their music, see and/or download videoclip.
 
-As an event organizer I want to have possibility to listen to music of group and contact if I'm interested in cooperation  
+* Event organizer who wants to contact regarding organization of a concert or cooperation.  
+
+* Person who wants to know more about band, see pictures, read history.
+
+* Fan who wants to find links to social media accounts of group to connect with other fans.
+
+
 
 ### Strategy
 
