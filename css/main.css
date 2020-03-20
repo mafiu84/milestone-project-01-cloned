@@ -301,6 +301,7 @@ div.desc {
 
 .desc{
     font-size: 2em;
+     color: #d9ffff;
 }
 
 * {
@@ -422,7 +423,7 @@ div {
 /*************************************************************************************************about**/
 .date {
     margin-top: 5%;
-    color: #0997d3;
+    color: #D9FFFF;
     font-style: italic;
     z-index: 2;
     font-weight: bold;
@@ -433,6 +434,7 @@ div.wiki-links{
     line-height: 2em;
     margin-left: 0px;
     font-size: 0.5em;
+    color: #D9FFFF;
 }
 a.wiki-links-anchor{
     color: black;
@@ -820,7 +822,7 @@ button[type="submit"] {
 }
 /**date about**/
 .date{
-    font-size: 1em;
+    font-size: 0.9em;
     float: none;
 }
 /** wiki-links in about.html **/
@@ -833,7 +835,8 @@ div.wiki-links{
     padding-left: 10px;
 }
 a.wiki-links-anchor{
-    color: white;
+    color: #d9ffff;
+    font-size: 1.1em;
 }
 
 /**font size of p1 text descriptions**/
@@ -995,7 +998,8 @@ div.wiki-links{
     font-size: 1.6em;
 }
 a.wiki-links-anchor{
-    color: white;
+    color: #d9ffff;
+    font-size: 1.4em;
 }
 /**name meet.html, pictures, the monkees home button contact**/
 a.name {
@@ -1177,8 +1181,9 @@ div.wiki-links{
     font-size: 2em;
 }
 a.wiki-links-anchor{
-    color: white;
+    color: #d9ffff;
     width: 100vw;
+    font-size: 1.8em;
 }
 /**buttons down and up index**/
 /**image and description sizes meet.html**/
