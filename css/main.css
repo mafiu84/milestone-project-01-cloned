@@ -542,6 +542,11 @@ a.name{
 .music-background-color {
     font-size: medium;
 }
+/**footer fonts**/
+.navbar-text{
+    font-size: 0.7em;
+}
+
 
 /**media querries 126-262px-**/
 @media(max-width:262px) and (min-width: 126px){
@@ -754,6 +759,11 @@ button[type="submit"] {
     background-color: transparent;
     font-size: 0.6em;
 }
+
+/**footer fonts**/
+.navbar-text{
+    font-size: 0.7em;
+}
 }
 
 @media(min-width:641px){
@@ -766,7 +776,13 @@ button[type="submit"] {
     background-color: transparent;
     font-size: 0.8em;
 }
+/**footer fonts**/
+.navbar-text{
+    font-size: 0.7em;
 }
+}
+
+
 /**media querries 767-262px**/
 @media(max-width:767px) and (min-width:262px){
 
@@ -891,13 +907,8 @@ a.name{
     margin-top: 30%;
 }
 .form-resizing {
-   /** position: absolute;
-    top: 505px;
-    width: 85%;
-    padding-right: 0;
-    padding-left: 10%;**/
-    width: 65%;
-    bottom: 20px;
+    width: 55%;
+    bottom: 1.25em;
     margin-bottom: 0;
 }
 .form-control {
@@ -915,7 +926,7 @@ a.name{
 .contactform {
     background-color: rgba(0,0,0,0.4);
     font-size: 1.2em;
-    color: white;
+    color:#d9ffff;
     font-weight: lighter;
     display: inline-block;
     border: 1px black solid;
@@ -970,15 +981,10 @@ ul li{
     font-weight: normal;
     font-family: 'Carter One', cursive;
 }
-
-
-
-
-
-
-
-
-
+/**footer fonts**/
+.navbar-text{
+    font-size: 0.7em;
+}
 
 /**media querries  768-991px**/
 @media(max-width: 991px) and (min-width: 768px)
@@ -1062,7 +1068,7 @@ body {
     margin-top: 30%;
     text-align: left;
     margin-right: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     float: left;
 }
 .form-control {
@@ -1102,7 +1108,7 @@ button[type="submit"] {
     display: inline-block;
     padding: 5px 11px;
     margin-bottom: 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -1184,7 +1190,9 @@ a.wiki-links-anchor{
     width: 100vw;
     font-size: 1.8em;
 }
-/**buttons down and up index**/
+.container{
+    font-size: 1.2em;
+}
 /**image and description sizes meet.html**/
 img{
     width: 200px;
@@ -1278,7 +1286,7 @@ button[type="submit"] {
 }
 .btn {
     padding: 6px 12px;
-    font-size: 2.2em;
+    font-size: 1.3em;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
