@@ -91,6 +91,8 @@ In future I would like to add online shop to sell items related to the group.
     7.Disallow use of box-sizing - The box-sizing property isn't supported in IE6 and IE7. box-sizing: border-box;
     8.Too many floats (14), you're probably using them for layout. Consider using a grid system instead.
     9.Too many font-size declarations (77), abstraction needed.
+* CSS tested also in validator - https://jigsaw.w3.org/css-validator/validator - passed with 12 warnings.
+* Respoinsivity checked on multiple mobile devices with - https://www.responsinator.com/, working fine
 * Tested for performance, accessibility, best practices and SEO for mobile and desktop machines in chrome dev tools-Lighthouse.\
 * Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices.\
 
