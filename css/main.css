@@ -88,7 +88,7 @@ h2{
 
 p1{
     font-size: 0.7em;
-    margin-top: 0px;
+    margin-top: 0;
     color: black;
     font-style: normal;
     font-weight: normal;
@@ -199,13 +199,14 @@ a.link-logo.menuitem{
 
 
 .col-xs-12.col-sm-12.col-xl-12{
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 0;
+    padding-left: 0;
     text-align: left;
 }
 
 .music-button{
     color: white;
+    background-color: black;
     background-color: rgba(0,0,0,0.7);
     padding: 0;
     font-size: 1.8em;
@@ -233,6 +234,7 @@ ul {
 /** video-button**/
 .video-button{
     color: #d9ffff;
+    background-color: black;
     background-color: rgba(0,0,0,0.7);
     padding: 0;
     font-size: 1.7em;
@@ -266,6 +268,7 @@ ul {
 
 
 .hvr-sweep-to-bottom::before {
+    background: black;
     background: rgba(0, 0, 0, 0.2);
     height: 20px;
 }
@@ -445,7 +448,7 @@ label {
 
 input,
 label {
-    margin: 0 0px;
+    margin: 0 0;
 }
 
 
@@ -464,7 +467,7 @@ div.social-links{
 }
 /*************************************************************video*/
 video {
-    padding-top: 0px;
+    padding-top: 0;
 }
 div {
     font-size: 1.1em;
@@ -483,7 +486,7 @@ div {
 div.wiki-links{
     text-align: left;
     line-height: 2em;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 0.5em;
     color: #D9FFFF;
 }
@@ -523,7 +526,7 @@ a.wiki-links-anchor{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 140px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 12px;
 }
@@ -547,9 +550,9 @@ a.wiki-links-anchor{
 }
 a.name{
     width: 70vw;
-    margin-top:0px;
+    margin-top:0;
     margin-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: inline-block;
     font-family: 'Carter One', cursive;
     font-size: 1.1em;
@@ -569,6 +572,7 @@ a.name{
     height: 80px;
 }
 .hvr-sweep-to-bottom::before {
+    background: black;
     background: rgba(0, 0, 0, 0.2);
     height: 80px;
 }
@@ -630,7 +634,7 @@ a.name{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 140px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 12px;
 }
@@ -671,7 +675,7 @@ img{
     font-weight: normal;
     background-color: black;
     box-shadow: 0 0 0 1px;
-    margin: 0px;
+    margin: 0;
 }
 /**music.html Choose to listen styles**/
 .music-button {
@@ -738,9 +742,9 @@ body {
 /**the monkees home button contact**/
 a.name{
     width: 100vw;
-    margin-top:0px;
+    margin-top: 0;
     margin-left: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: inline-block;
     font-family: 'Carter One', cursive;
     font-size: 2.5em;
@@ -862,7 +866,7 @@ button[type="submit"] {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 140px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 12px;
 }
@@ -891,10 +895,11 @@ button[type="submit"] {
 }
 /** wiki-links in about.html **/
 div.wiki-links{
+    background-color: black;
     background-color: rgba(0,0,0,0);
     text-align: left;
     line-height: 3em;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 1.2em;
     padding-left: 10px;
 }
@@ -972,6 +977,7 @@ a.name{
     border-radius: 4px;
 }
 .contactform {
+    background-color: black;
     background-color: rgba(0,0,0,0.4);
     font-size: 1.2em;
     color:#d9ffff;
@@ -1047,7 +1053,7 @@ div.wiki-links{
     background-color: rgba(0,0,0,0);
     text-align: left;
     line-height: 4em;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 1.6em;
 }
 a.wiki-links-anchor{
@@ -1203,11 +1209,13 @@ ul li {
     font-family: 'Carter One', cursive;
 }
 .music-background-color{
+    background-color: black;
     background-color: rgba(0,0,0,0);
     font-size: medium;
 }
 .music-button {
     color: white;
+    background-color: black;
     background-color: rgba(0,0,0,0.7);
     padding: 0;
     font-weight: 100;
@@ -1215,8 +1223,6 @@ ul li {
     margin-right: 80%;
 }
 }
-
-
 
 
 /**media querries  992px+**/
@@ -1227,10 +1233,11 @@ div.dropdown{
 }
 /** wiki-links in about.html **/
 div.wiki-links{
+    background-color: black;
     background-color: rgba(0,0,0,0);
     text-align: left;
     line-height: 3em;
-    margin-left: 0px;
+    margin-left: 0;
     font-size: 2em;
 }
 a.wiki-links-anchor{
@@ -1297,6 +1304,7 @@ a.name {
     align-content: center;
 }
 .contactform {
+    background-color: black;
     background-color: rgba(0,0,0,0.4);
     width: 65%;
     float: left;
@@ -1357,6 +1365,7 @@ button[type="submit"] {
 }
 
 .social-links {
+    background-color: black;
     background-color: rgba(0,0,0,0.2);
     font-size: 1.5em;
     float: right;
