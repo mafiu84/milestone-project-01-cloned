@@ -8,8 +8,54 @@ body{
     align-content: center;
     text-align: center;
     height: 100vw;
+    background-color: black;
 }
 
+/**background images from all pages**/
+.background-index{
+    background-image: url(/images/index_background.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-color: black;
+}
+.background-contact{
+    background-image: url(/images/contact_background.jpg);
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-color: black;
+}
+.background-meet{
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-color: black;
+}
+.background-music{
+    background-image: url(/images/music_background.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-color: black;
+}
+.background-video{
+    background-image: url(/images/video_background.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-color: black;
+}
 .background-about{
     background-image: url(/images/microphone.jpg);
     background-position: top center;
