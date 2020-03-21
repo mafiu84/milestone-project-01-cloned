@@ -3,17 +3,22 @@ html{
     height: 100vw;
 }
 
-
-body {
+body{
     font-family: "Source Sans Pro";
     align-content: center;
-    height: 100vw;
-    background-size: contain;
-    background-repeat: no-repeat;
     text-align: center;
-    background-color: black;
+    height: 100vw;
 }
 
+.background-about{
+    background-image: url(/images/microphone.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-color: black;
+}
 
 h1{
     font-style: italic;
