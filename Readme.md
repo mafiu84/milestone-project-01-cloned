@@ -86,6 +86,11 @@ In future I would like to add online shop to sell items related to the group.
     2.Beware of broken box size - Using height with border can sometimes make elements larger than you expect.
     3.Beware of broken box size	- Using width with padding can sometimes make elements larger than you expect.
     4.Beware of broken box size	- Using height with padding can sometimes make elements larger than you expect.
+    5.Disallow IDs in selectors	- Don't use IDs in selectors. #nav
+    6.Disallow universal selector - The universal selector (*) is known to be slow.
+    7.Disallow use of box-sizing - The box-sizing property isn't supported in IE6 and IE7. box-sizing: border-box;
+    8.Too many floats (14), you're probably using them for layout. Consider using a grid system instead.
+    9.Too many font-size declarations (77), abstraction needed.
 * Tested for performance, accessibility, best practices and SEO for mobile and desktop machines in chrome dev tools-Lighthouse.\
 * Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices.\
 
