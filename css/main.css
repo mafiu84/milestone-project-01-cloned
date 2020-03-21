@@ -354,7 +354,7 @@ div.desc {
 }
 
 .desc{
-    font-size: 2em;
+    font-size: 1.2em;
      color: #d9ffff;
 }
 
@@ -366,7 +366,6 @@ div.desc {
     padding: 6px 6px;
     float: left;
     width: 24.99999%;
-    font-size: 0.6em;
 }
 
 @media only screen and (max-width: 700px) {
@@ -378,7 +377,7 @@ div.desc {
     line-height: 1.6em;
   }
   .desc {
-    font-size: 1.6em;
+    font-size: 0.9em;
   }
 }
 
@@ -390,7 +389,7 @@ div.desc {
     line-height: 1.3em;
   }
   .desc {
-    font-size: 1.1em;
+    font-size: 0.6em;
   }
 }
 
