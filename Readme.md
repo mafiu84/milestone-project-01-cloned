@@ -80,10 +80,14 @@ In future I would like to add online shop to sell items related to the group.
 
 ## TESTING
 
-HTML tested in official validator\
-CSS tested in official validator\
-Tested for performance, accessibility, best practices and SEO for mobile and desktop machines in chrome dev tools-Lighthouse.\
-Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices.\
+* HTML tested in validator - https://www.freeformatter.com/html-validator.html
+* CSS tested in validator - http://csslint.net/ - Warnings:
+    1.Beware of broken box size - Using width with border can sometimes make elements larger than you expect.
+    2.Beware of broken box size - Using height with border can sometimes make elements larger than you expect.
+    3.Beware of broken box size	- Using width with padding can sometimes make elements larger than you expect.
+    4.Beware of broken box size	- Using height with padding can sometimes make elements larger than you expect.
+* Tested for performance, accessibility, best practices and SEO for mobile and desktop machines in chrome dev tools-Lighthouse.\
+* Also I've tested website in chrome devtools for responsiveness and on multiple browsers and mobile devices.\
 
 
 ## DEPLOYMENT

@@ -240,7 +240,7 @@ ul {
     font-size: 1.7em;
     margin-right: 80%;
     margin-top: 30%;
-    margin-bottom: 0%;
+    margin-bottom: 0;
     font-weight: 100;
 }
 
@@ -259,7 +259,7 @@ ul {
 
 /*--------------------------------------------------------------------nav buttons on top*/
 .row1 {
-    position: sticky;
+    position: inherit;
     top: 0;
     align-content: center;
     text-align: left;
@@ -513,7 +513,7 @@ a.wiki-links-anchor{
 }
 
 .dropdown {
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     text-align: right;
@@ -621,7 +621,7 @@ a.name{
 }
 
 .dropdown {
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     text-align: right;
@@ -703,13 +703,13 @@ ul {
 .last {
     position: fixed;
     top: 55%;
-    left: 0%;
+    left: 0;
     transform: rotate(-90deg);
 }
 .first {
     position: fixed;
     top: 55%;
-    right: 0%;
+    right: 0;
     transform: rotate(90deg);
 }
 .smallcolor{
@@ -853,7 +853,7 @@ button[type="submit"] {
 }
 
 .dropdown {
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     text-align: right;
@@ -936,7 +936,7 @@ p1{
 }
 /**body background position and styles  contact**/ 
 body{
-    background-position: left 0% top 100px;
+    background-position: left 0 top 100px;
     line-height: 1;
 }
 /**the monkees home button  contact**/
@@ -1007,6 +1007,7 @@ ul li{
 }
 /**music.html choose to listen music-button**/
 .music-button {
+    background-color: black;
     background-color: rgba(0,0,0,0.7);
     padding: 0;
     font-weight: 100;
@@ -1050,6 +1051,7 @@ div.dropdown{
 
 /** wiki-links in about.html **/
 div.wiki-links{
+    background-color: black;
     background-color: rgba(0,0,0,0);
     text-align: left;
     line-height: 4em;
@@ -1093,13 +1095,13 @@ p1{
 .last {
     position: fixed;
     top: 55%;
-    left: 0%;
+    left: 0;
     transform: rotate(-90deg);
 }
 .first {
     position: fixed;
     top: 55%;
-    right: 0%;
+    right: 0;
     transform: rotate(90deg);
 }
 .smallcolor{
@@ -1269,13 +1271,13 @@ p1{
 .last {
     position: fixed;
     top: 55%;
-    left: 0%;
+    left: 0;
     transform: rotate(-90deg);
 }
 .first {
     position: fixed;
     top: 55%;
-    right: 0%;
+    right: 0;
     transform: rotate(90deg);
 }
 .smallcolor{
