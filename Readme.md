@@ -81,6 +81,7 @@ In future I would like to add online shop to sell items related to the group.
 ## TESTING
 
 * HTML tested in validator - https://www.freeformatter.com/html-validator.html
+* HTML also tested in validator - https://validator.w3.org/nu/ with one warning (wrong, about aria-label misuse).
 * CSS tested in validator - http://csslint.net/ - Warnings:
     1.Beware of broken box size - Using width with border can sometimes make elements larger than you expect.
     2.Beware of broken box size - Using height with border can sometimes make elements larger than you expect.
