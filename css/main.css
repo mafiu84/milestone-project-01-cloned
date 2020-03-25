@@ -345,6 +345,7 @@ div.gallery:hover {
 div.gallery img {
     width: 40%;
     height:auto;
+    padding-top: 0.1em;
 }
 
 div.desc {
